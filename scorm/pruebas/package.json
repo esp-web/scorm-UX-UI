@@ -1,0 +1,11 @@
+{
+  "name": "pruebas-scorm",
+  "private": true,
+  "description": "Pruebas automáticas de las actividades SCORM con un Moodle simulado",
+  "scripts": {
+    "humo": "node prueba-humo.js"
+  },
+  "dependencies": {
+    "playwright-core": "1.48.2"
+  }
+}

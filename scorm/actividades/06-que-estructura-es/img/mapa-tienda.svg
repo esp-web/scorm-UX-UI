@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Mapa del sitio de la tienda Pasos Ligeros</title>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#111015"/></marker></defs>
+<rect width="800" height="360" fill="#FFFFFF"/>
+<rect x="335.0" y="22.0" width="130" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="400" y="51.0" text-anchor="middle" font-size="18">Inicio</text>
+<path d="M400,68 L400,105 L150,105 L150,142" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="85.0" y="142.0" width="130" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<path d="M400,68 L400,105 L400,105 L400,142" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="335.0" y="142.0" width="130" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<path d="M400,68 L400,105 L650,105 L650,142" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="585.0" y="142.0" width="130" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="85.0" y="142.0" width="130" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="150" y="171.0" text-anchor="middle" font-size="18">Mujer</text>
+<path d="M150,188 L150,228 L82,228 L82,272" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="20.0" y="272.0" width="124" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="82" y="301.0" text-anchor="middle" font-size="18">Zapatillas</text>
+<path d="M150,188 L150,228 L218,228 L218,272" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="156.0" y="272.0" width="124" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="218" y="301.0" text-anchor="middle" font-size="18">Botas</text>
+<rect x="335.0" y="142.0" width="130" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="400" y="171.0" text-anchor="middle" font-size="18">Hombre</text>
+<path d="M400,188 L400,228 L332,228 L332,272" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="270.0" y="272.0" width="124" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="332" y="301.0" text-anchor="middle" font-size="18">Zapatillas</text>
+<path d="M400,188 L400,228 L468,228 L468,272" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="406.0" y="272.0" width="124" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="468" y="301.0" text-anchor="middle" font-size="18">Sandalias</text>
+<rect x="585.0" y="142.0" width="130" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="650" y="171.0" text-anchor="middle" font-size="18">Niños</text>
+<path d="M650,188 L650,228 L582,228 L582,272" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="520.0" y="272.0" width="124" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="582" y="301.0" text-anchor="middle" font-size="18">Colegio</text>
+<path d="M650,188 L650,228 L718,228 L718,272" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="656.0" y="272.0" width="124" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="718" y="301.0" text-anchor="middle" font-size="18">Deporte</text>
+</svg>

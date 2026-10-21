@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Vídeo de la escuela de idiomas Babel</title>
+<rect width="600" height="340" fill="#FFFFFF"/>
+<rect x="0" y="0" width="600" height="36" fill="#F1F1F4"/>
+<circle cx="20" cy="18" r="6" fill="#E84F49"/><circle cx="40" cy="18" r="6" fill="#F6C956"/><circle cx="60" cy="18" r="6" fill="#C6D675"/>
+<rect x="90" y="8" width="420" height="20" rx="10" fill="#FFFFFF" stroke="#111015" stroke-width="1"/>
+<text x="106" y="23" font-size="13" fill="#5A5868">escuelababel.es/curso</text>
+<line x1="0" y1="36" x2="600" y2="36" stroke="#111015" stroke-width="2"/><text x="30" y="72" font-size="20" font-weight="bold">Clase de prueba: presentarse en inglés</text><rect x="30" y="90" width="540" height="230" rx="10" fill="#2B2A35"/>
+<circle cx="300.0" cy="172.8" r="29.900000000000002" fill="#A5D3FC"/>
+<path d="M192.0,269.4 q108.0,-96.6 216.0,0 z" fill="#A5D3FC"/>
+<path d="M386.40000000000003,154.4 q12,10 0,20 M408.0,140.6 q20,16 0,32" fill="none" stroke="#F6C956" stroke-width="3"/>
+<rect x="30" y="286" width="540" height="34" fill="#111015"/>
+<path d="M44,294 l14,9 l-14,9 z" fill="#FFFFFF"/>
+<rect x="70" y="301" width="400" height="4" rx="2" fill="#8E8BA0"/><rect x="70" y="301" width="140.0" height="4" rx="2" fill="#F6C956"/>
+<g transform="translate(482,293) scale(0.7)"><g transform="translate(0,0)" fill="#FFFFFF"><rect x="0" y="8" width="8" height="12"/><path d="M8,8 L18,0 L18,28 L8,20 z"/>
+<path d="M23,6 q6,8 0,16" fill="none" stroke="#FFFFFF" stroke-width="2.5"/><path d="M28,2 q10,12 0,24" fill="none" stroke="#FFFFFF" stroke-width="2.5"/></g></g>
+<path d="M530,294 h-8 v8 M548,294 h8 v8 M530,312 h-8 v-8 M548,312 h8 v-8" transform="translate(8,0)" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+</svg>

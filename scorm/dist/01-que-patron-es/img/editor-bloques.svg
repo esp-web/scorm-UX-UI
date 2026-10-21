@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 480" width="800" height="480" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Editor para crear páginas web por bloques</title>
+<rect width="800" height="480" fill="#FFFFFF"/>
+<rect x="20" y="20" width="760" height="440" rx="12" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<path d="M20 60 H780" stroke="#111015" stroke-width="2"/>
+<circle cx="40" cy="40" r="6" fill="#C4C2D0"/>
+<circle cx="60" cy="40" r="6" fill="#C4C2D0"/>
+<circle cx="80" cy="40" r="6" fill="#C4C2D0"/>
+<rect x="110" y="29" width="580" height="22" rx="11" fill="#F1F1F4"/>
+<text x="400.0" y="46" font-size="14" font-weight="normal" text-anchor="middle" fill="#5A5868">Editor de webs · Estudio Kiln</text>
+<rect x="22" y="61" width="228" height="397" rx="0" fill="#F1F1F4"/>
+<text x="40" y="92" font-size="15" font-weight="bold" text-anchor="start" fill="#111015">Bloques de la página</text>
+<rect x="36" y="108" width="198" height="42" rx="8" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<text x="50" y="135" font-size="15" font-weight="normal" text-anchor="start" fill="#111015">Cabecera</text>
+<text x="220" y="135" font-size="16" font-weight="bold" text-anchor="end" fill="#111015">✓</text>
+<rect x="36" y="160" width="198" height="42" rx="8" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<text x="50" y="187" font-size="15" font-weight="normal" text-anchor="start" fill="#111015">Galería</text>
+<text x="220" y="187" font-size="16" font-weight="bold" text-anchor="end" fill="#111015">✓</text>
+<rect x="36" y="212" width="198" height="42" rx="8" fill="#FFF4D6" stroke="#111015" stroke-width="2"/>
+<text x="50" y="239" font-size="15" font-weight="normal" text-anchor="start" fill="#111015">Texto</text>
+<text x="220" y="239" font-size="16" font-weight="bold" text-anchor="end" fill="#111015">✎</text>
+<rect x="36" y="266" width="198" height="42" rx="8" fill="none" stroke="#5A5868" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="135" y="293" font-size="15" font-weight="bold" text-anchor="middle" fill="#5A5868">+ Añadir bloque</text>
+<text x="276" y="86" font-size="14" font-weight="normal" text-anchor="start" fill="#1E7A46">Borrador guardado</text>
+<rect x="600" y="66" width="160" height="34" rx="17.0" fill="#FFFFFF" stroke="#111015" stroke-width="2"/><text x="680.0" y="87.9" font-size="14" font-weight="bold" text-anchor="middle" fill="#111015">Vista previa</text>
+<rect x="276" y="112" width="484" height="330" rx="8" fill="#FFFFFF" stroke="#C4C2D0" stroke-width="2"/>
+<rect x="292" y="126" width="452" height="50" rx="6" fill="#F1F1F4"/>
+<text x="308" y="157" font-size="18" font-weight="bold" text-anchor="start" fill="#111015">Estudio Kiln</text>
+<rect x="292" y="190" width="144" height="96" rx="6" fill="#C4C2D0"/>
+<rect x="446" y="190" width="144" height="96" rx="6" fill="#C4C2D0"/>
+<rect x="600" y="190" width="144" height="96" rx="6" fill="#C4C2D0"/>
+<rect x="292" y="300" width="452" height="120" rx="6" fill="none" stroke="#2F5BD8" stroke-width="3" stroke-dasharray="8 5"/>
+<rect x="308" y="318" width="380.0" height="7" rx="3.5" fill="#C4C2D0"/>
+<rect x="308" y="336" width="280.0" height="7" rx="3.5" fill="#C4C2D0"/>
+<rect x="308" y="354" width="380.0" height="7" rx="3.5" fill="#C4C2D0"/>
+<rect x="308" y="372" width="280.0" height="7" rx="3.5" fill="#C4C2D0"/>
+<path d="M560 386 V406" stroke="#111015" stroke-width="2"/>
+</svg>

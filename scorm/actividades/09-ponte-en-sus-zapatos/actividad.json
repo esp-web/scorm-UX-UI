@@ -1,0 +1,1405 @@
+{
+  "id": "ut2-09-ponte-en-sus-zapatos",
+  "titulo": "Ponte en sus zapatos",
+  "subtitulo": "UT2 · Diseño y desarrollo web · 3º EAS Diseño Gráfico",
+  "etiqueta": "UT2 · Diseño y desarrollo web",
+  "objetivo": "Usas webs inventadas con una limitación simulada (solo teclado, visión borrosa, sol en la pantalla o daltonismo), compruebas qué funciona y qué no, y lo relacionas con las pautas de accesibilidad.",
+  "minutos": 30,
+  "preguntasPorIntento": 8,
+  "aprobado": 50,
+  "garantizar": [
+    "simulacion",
+    "simulacion",
+    "simulacion",
+    "simulacion"
+  ],
+  "banco": [
+    {
+      "id": "s01",
+      "tipo": "simulacion",
+      "peso": 2,
+      "grupo": "teclado-bien",
+      "limitacion": "teclado",
+      "enunciado": "Reserva 2 entradas para la sesión de las 19:30 de «El faro de papel» en Cines Lumbre.",
+      "web": "Cines Lumbre · Reserva de entradas",
+      "confirmacion": "Reserva hecha",
+      "elementos": [
+        {
+          "t": "titulo",
+          "texto": "El faro de papel"
+        },
+        {
+          "t": "texto",
+          "texto": "Sala 2 · 98 minutos · Versión original subtitulada"
+        },
+        {
+          "t": "opciones",
+          "id": "o1",
+          "texto": "Sesión",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "17:00"
+            },
+            {
+              "id": "b",
+              "texto": "19:30"
+            },
+            {
+              "id": "c",
+              "texto": "22:00"
+            }
+          ]
+        },
+        {
+          "t": "opciones",
+          "id": "o2",
+          "texto": "Entradas",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "1"
+            },
+            {
+              "id": "b",
+              "texto": "2"
+            },
+            {
+              "id": "c",
+              "texto": "3"
+            },
+            {
+              "id": "d",
+              "texto": "4"
+            }
+          ]
+        },
+        {
+          "t": "casilla",
+          "id": "c1",
+          "texto": "Acepto las condiciones de compra"
+        },
+        {
+          "t": "boton",
+          "id": "b1",
+          "texto": "Volver a la cartelera",
+          "mensaje": "Para esta tarea, quédate en la reserva."
+        },
+        {
+          "t": "boton",
+          "id": "b2",
+          "texto": "Pagar",
+          "fin": true
+        }
+      ],
+      "meta": {
+        "valores": {
+          "o1": "b",
+          "o2": "b",
+          "c1": true
+        }
+      },
+      "solucion": "terminarla con el teclado: Tab hasta «Sesión» y flechas hasta 19:30; Tab y flechas hasta 2 entradas; Tab y Espacio en la casilla; Tab hasta «Pagar» e Intro.",
+      "reflexion": {
+        "enunciado": "¿Qué pauta de las WCAG te ha permitido reservar sin ratón?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Operable: toda la funcionalidad disponible desde el teclado",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Perceptible: texto descriptivo para imágenes, enlaces y botones"
+          },
+          {
+            "id": "c",
+            "texto": "Comprensible: ayudar a los usuarios a evitar y corregir errores"
+          },
+          {
+            "id": "d",
+            "texto": "Operable: tiempo suficiente para leer y usar el contenido"
+          }
+        ]
+      },
+      "alternativa": {
+        "descripcion": "Una web de reserva de cine. De arriba abajo: el título de la película; la sesión (17:00, 19:30 o 22:00, se elige una); las entradas (de 1 a 4); la casilla «Acepto las condiciones de compra»; y los botones «Volver a la cartelera» y «Pagar». Al recorrerla con Tab, el foco se ve siempre (un marco violeta) y sigue el orden de la pantalla, de arriba abajo.",
+        "enunciado": "Quieres 2 entradas para las 19:30. Solo con el teclado, ¿qué secuencia funciona?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Tab hasta la sesión y flechas hasta 19:30; Tab y flechas hasta 2; Tab y Espacio en la casilla; Tab hasta «Pagar» e Intro",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Tab hasta la sesión y Espacio en 19:30; después, Tab directo hasta «Pagar» e Intro, sin tocar las entradas ni la casilla"
+          },
+          {
+            "id": "c",
+            "texto": "Flechas arriba y abajo para recorrer toda la página, e Intro sobre «Pagar» cuando el marco violeta llegue a él"
+          },
+          {
+            "id": "d",
+            "texto": "Ninguna: con Tab se llega a los botones, pero para elegir la sesión y las entradas hace falta el ratón"
+          }
+        ]
+      },
+      "explicacion": "La web está bien hecha para el teclado: todo se alcanza con Tab, el foco se ve y sigue el orden de la pantalla. Es la pauta 1 del principio Operable: toda la funcionalidad disponible desde el teclado. Las flechas cambian de opción dentro de un grupo, pero no saltan de un control a otro: para eso está Tab. «Tiempo suficiente» también es una pauta Operable, pero no es lo que te deja reservar sin ratón.",
+      "diapositiva": 164
+    },
+    {
+      "id": "s02",
+      "tipo": "simulacion",
+      "peso": 2,
+      "grupo": "teclado-bien",
+      "limitacion": "teclado",
+      "enunciado": "Reserva en Casa Olmedo una mesa para 4 personas el sábado a las 21:00, en la terraza. No quieres recibir ofertas.",
+      "web": "Casa Olmedo · Reserva de mesa",
+      "confirmacion": "Mesa reservada",
+      "elementos": [
+        {
+          "t": "titulo",
+          "texto": "Reserva tu mesa"
+        },
+        {
+          "t": "opciones",
+          "id": "o1",
+          "texto": "Día",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Viernes"
+            },
+            {
+              "id": "b",
+              "texto": "Sábado"
+            },
+            {
+              "id": "c",
+              "texto": "Domingo"
+            }
+          ]
+        },
+        {
+          "t": "opciones",
+          "id": "o2",
+          "texto": "Hora",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "20:00"
+            },
+            {
+              "id": "b",
+              "texto": "21:00"
+            },
+            {
+              "id": "c",
+              "texto": "22:00"
+            }
+          ]
+        },
+        {
+          "t": "opciones",
+          "id": "o3",
+          "texto": "Personas",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "2"
+            },
+            {
+              "id": "b",
+              "texto": "3"
+            },
+            {
+              "id": "c",
+              "texto": "4"
+            },
+            {
+              "id": "d",
+              "texto": "5"
+            }
+          ]
+        },
+        {
+          "t": "opciones",
+          "id": "o4",
+          "texto": "Zona",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Interior"
+            },
+            {
+              "id": "b",
+              "texto": "Terraza"
+            }
+          ]
+        },
+        {
+          "t": "casilla",
+          "id": "c1",
+          "texto": "Quiero recibir ofertas por correo"
+        },
+        {
+          "t": "boton",
+          "id": "b1",
+          "texto": "Reservar",
+          "fin": true
+        }
+      ],
+      "meta": {
+        "valores": {
+          "o1": "b",
+          "o2": "b",
+          "o3": "c",
+          "o4": "b",
+          "c1": false
+        }
+      },
+      "solucion": "terminarla con el teclado: en cada grupo, Tab para llegar y flechas para elegir (sábado, 21:00, 4 personas, terraza); la casilla de ofertas sin marcar; Tab hasta «Reservar» e Intro.",
+      "reflexion": {
+        "enunciado": "¿Qué patrón humano de la UT2 respeta esta web?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Uso del teclado",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Memoria espacial"
+          },
+          {
+            "id": "c",
+            "texto": "Gratificación instantánea"
+          },
+          {
+            "id": "d",
+            "texto": "Elecciones postergadas"
+          }
+        ]
+      },
+      "alternativa": {
+        "descripcion": "Una web de reserva de restaurante. De arriba abajo: el día (viernes, sábado o domingo), la hora (20:00, 21:00 o 22:00), las personas (de 2 a 5), la zona (interior o terraza), la casilla «Quiero recibir ofertas por correo» y el botón «Reservar». Con Tab, el foco se ve siempre y sigue ese orden.",
+        "enunciado": "Con el teclado, ¿cómo eliges «Terraza» en el grupo «Zona»?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Llegas al grupo con Tab y cambias de opción con las flechas",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Llegas al grupo con las flechas y cambias de opción con Tab"
+          },
+          {
+            "id": "c",
+            "texto": "Pulsas Intro varias veces hasta que el foco llega a «Terraza»"
+          },
+          {
+            "id": "d",
+            "texto": "Pulsas Espacio varias veces hasta que el foco llega a «Terraza»"
+          }
+        ]
+      },
+      "explicacion": "Es el patrón «Uso del teclado»: no todo el mundo puede o quiere usar el ratón o el dedo. Tab salta de un campo a otro; las flechas, Intro o Espacio manejan los controles (como los radio buttons). Esta web lo permite todo y además muestra el foco en orden. La memoria espacial, la gratificación instantánea y las elecciones postergadas son otros patrones que aquí no están en juego.",
+      "diapositiva": 44
+    },
+    {
+      "id": "s03",
+      "tipo": "simulacion",
+      "peso": 2,
+      "grupo": "teclado-mal",
+      "limitacion": "teclado",
+      "sinFoco": true,
+      "enunciado": "Reserva 1 entrada para la sesión de las 22:00 de «Noche de cometas» en Cines Lumbre.",
+      "web": "Cines Lumbre · Reserva de entradas",
+      "confirmacion": "Reserva hecha",
+      "elementos": [
+        {
+          "t": "titulo",
+          "texto": "Noche de cometas",
+          "orden": 0
+        },
+        {
+          "t": "opciones",
+          "id": "o2",
+          "texto": "Entradas",
+          "orden": 3,
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "1"
+            },
+            {
+              "id": "b",
+              "texto": "2"
+            },
+            {
+              "id": "c",
+              "texto": "3"
+            },
+            {
+              "id": "d",
+              "texto": "4"
+            }
+          ]
+        },
+        {
+          "t": "casilla",
+          "id": "c1",
+          "texto": "Acepto las condiciones de compra",
+          "orden": 4
+        },
+        {
+          "t": "opciones",
+          "id": "o1",
+          "texto": "Sesión",
+          "orden": 2,
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "17:00"
+            },
+            {
+              "id": "b",
+              "texto": "19:30"
+            },
+            {
+              "id": "c",
+              "texto": "22:00"
+            }
+          ]
+        },
+        {
+          "t": "texto",
+          "texto": "Sala 4 · 104 minutos",
+          "orden": 1
+        },
+        {
+          "t": "boton",
+          "id": "b1",
+          "texto": "Volver a la cartelera",
+          "orden": 6,
+          "mensaje": "Para esta tarea, quédate en la reserva."
+        },
+        {
+          "t": "boton",
+          "id": "b2",
+          "texto": "Pagar",
+          "orden": 5,
+          "roto": true,
+          "fin": true
+        }
+      ],
+      "meta": {
+        "bloqueo": true,
+        "valores": {
+          "o1": "c",
+          "o2": "a",
+          "c1": true
+        }
+      },
+      "solucion": "no se podía completar: «Pagar» no se alcanza con el teclado (solo responde al ratón). Había que pulsar «No se puede completar».",
+      "reflexion": {
+        "enunciado": "¿Qué ha fallado en esta web al usarla solo con el teclado?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "El foco no se ve, Tab no sigue el orden de la pantalla y «Pagar» no se alcanza",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Las sesiones solo se distinguen por el color y la letra es demasiado pequeña"
+          },
+          {
+            "id": "c",
+            "texto": "La web pide terminar la reserva en muy poco tiempo y después la cancela"
+          },
+          {
+            "id": "d",
+            "texto": "Los botones son tan pequeños y están tan juntos que es fácil pulsar otro"
+          }
+        ]
+      },
+      "alternativa": {
+        "descripcion": "Una web de reserva de cine. Se ve, de arriba abajo: el título, la sala, la sesión (17:00, 19:30 o 22:00), las entradas (de 1 a 4), la casilla de condiciones y los botones «Pagar» y «Volver a la cartelera». Al pulsar Tab no se ve dónde está el foco, y el foco salta en otro orden: primero las entradas, luego la casilla, después la sesión y al final «Volver a la cartelera». Con Tab nunca se llega a «Pagar»: solo funciona con el ratón.",
+        "enunciado": "Solo con el teclado, ¿puedes terminar esta reserva?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "No: «Pagar» no se alcanza con Tab, así que la compra no se puede terminar",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Sí: aunque el foco no se vea, con Tab acabas llegando a «Pagar»"
+          },
+          {
+            "id": "c",
+            "texto": "No: la sesión solo se puede elegir con el ratón, aunque el resto funciona con Tab"
+          },
+          {
+            "id": "d",
+            "texto": "Sí: con las flechas, el foco baja por la página hasta llegar a «Pagar»"
+          }
+        ]
+      },
+      "explicacion": "Esta web incumple la pauta 1 del principio Operable (toda la funcionalidad disponible desde el teclado): «Pagar» parece un botón, pero solo responde al ratón. Además, el foco no se ve y Tab no sigue el orden de la pantalla, así que no sabes dónde estás (pauta 4: ayudar a saber dónde se encuentra el usuario). Nadie que use solo el teclado, o un teclado alternativo o Braille, puede comprar aquí.",
+      "diapositiva": 164
+    },
+    {
+      "id": "s04",
+      "tipo": "simulacion",
+      "peso": 2,
+      "grupo": "teclado-mal",
+      "limitacion": "teclado",
+      "sinFoco": true,
+      "enunciado": "En la tienda Hilo Norte, añade a la cesta la camiseta Ola en talla M y color azul marino.",
+      "web": "Hilo Norte · Tienda de ropa",
+      "confirmacion": "Añadida a la cesta",
+      "elementos": [
+        {
+          "t": "titulo",
+          "texto": "Camiseta Ola · algodón",
+          "orden": 0
+        },
+        {
+          "t": "opciones",
+          "id": "o1",
+          "texto": "Talla",
+          "orden": 3,
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "S"
+            },
+            {
+              "id": "b",
+              "texto": "M"
+            },
+            {
+              "id": "c",
+              "texto": "L"
+            },
+            {
+              "id": "d",
+              "texto": "XL"
+            }
+          ]
+        },
+        {
+          "t": "boton",
+          "id": "b1",
+          "texto": "Guía de tallas",
+          "orden": 5,
+          "mensaje": "La guía de tallas no está disponible ahora."
+        },
+        {
+          "t": "texto",
+          "texto": "19,90 €",
+          "orden": 1
+        },
+        {
+          "t": "opciones",
+          "id": "o2",
+          "texto": "Color",
+          "orden": 2,
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "Arena"
+            },
+            {
+              "id": "b",
+              "texto": "Azul marino"
+            },
+            {
+              "id": "c",
+              "texto": "Verde musgo"
+            }
+          ]
+        },
+        {
+          "t": "boton",
+          "id": "b2",
+          "texto": "Añadir a la cesta",
+          "orden": 4,
+          "roto": true,
+          "fin": true
+        }
+      ],
+      "meta": {
+        "bloqueo": true,
+        "valores": {
+          "o1": "b",
+          "o2": "b"
+        }
+      },
+      "solucion": "no se podía completar: «Añadir a la cesta» no se alcanza con el teclado (solo responde al ratón). Había que pulsar «No se puede completar».",
+      "reflexion": {
+        "enunciado": "¿Quién más se quedaría sin comprar en esta web?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Una persona ciega que usa lector de pantalla y teclado",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Una persona con daltonismo que usa el ratón"
+          },
+          {
+            "id": "c",
+            "texto": "Una persona sorda que usa el ratón"
+          },
+          {
+            "id": "d",
+            "texto": "Una persona que usa un monitor grande y el ratón"
+          }
+        ]
+      },
+      "alternativa": {
+        "descripcion": "Una tienda de ropa. Se ve, de arriba abajo: el nombre de la camiseta, el precio, el color (arena, azul marino o verde musgo), la talla (S, M, L o XL) y los botones «Añadir a la cesta» y «Guía de tallas». Al pulsar Tab no se ve dónde está el foco, y el foco va en otro orden: primero la talla, luego «Guía de tallas» y después el color. Con Tab nunca se llega a «Añadir a la cesta»: solo funciona con el ratón.",
+        "enunciado": "Solo con el teclado, ¿puedes añadir la camiseta a la cesta?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "No: «Añadir a la cesta» no se alcanza con Tab, así que no se puede",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Sí: aunque no veas el foco, con Tab acabas en «Añadir a la cesta»"
+          },
+          {
+            "id": "c",
+            "texto": "No: la talla solo se puede elegir con el ratón, aunque el resto funciona con Tab"
+          },
+          {
+            "id": "d",
+            "texto": "Sí: si pulsas Intro en «Guía de tallas», también se añade a la cesta"
+          }
+        ]
+      },
+      "explicacion": "«Añadir a la cesta» solo responde al ratón: la web incumple la pauta 1 del principio Operable (toda la funcionalidad disponible desde el teclado). Una persona ciega que usa lector de pantalla también se mueve con el teclado, así que se quedaría igual de bloqueada. Quien tiene daltonismo o sordera y usa el ratón sí podría comprar: esta barrera es de teclado, no de color ni de sonido.",
+      "diapositiva": 164
+    },
+    {
+      "id": "s05",
+      "tipo": "simulacion",
+      "peso": 2,
+      "grupo": "vision-baja",
+      "limitacion": "borroso",
+      "enunciado": "En Trenes Ribera, compra el billete del tren que sale a las 18:45 hacia Cádiz.",
+      "web": "Trenes Ribera · Billetes",
+      "confirmacion": "Billete comprado",
+      "elementos": [
+        {
+          "t": "titulo",
+          "texto": "Salidas desde Sevilla"
+        },
+        {
+          "t": "opciones",
+          "id": "o1",
+          "texto": "Tren",
+          "tam": "pequeno",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "18:15 · Huelva · andén 3"
+            },
+            {
+              "id": "b",
+              "texto": "18:45 · Cádiz · andén 5"
+            },
+            {
+              "id": "c",
+              "texto": "18:54 · Cádiz · andén 2"
+            },
+            {
+              "id": "d",
+              "texto": "16:45 · Cádiz · andén 4"
+            },
+            {
+              "id": "e",
+              "texto": "19:45 · Jerez · andén 1"
+            }
+          ]
+        },
+        {
+          "t": "boton",
+          "id": "b1",
+          "texto": "Comprar billete",
+          "fin": true,
+          "tam": "grande"
+        },
+        {
+          "t": "boton",
+          "id": "b2",
+          "texto": "Salidas de mañana",
+          "mensaje": "Las salidas de mañana aún no están a la venta."
+        }
+      ],
+      "meta": {
+        "valores": {
+          "o1": "b"
+        }
+      },
+      "solucion": "elegir «18:45 · Cádiz · andén 5» y pulsar «Comprar billete». Ampliar el texto con A+ ayuda a leer los horarios.",
+      "reflexion": {
+        "enunciado": "¿Qué pauta de las WCAG ayuda más a una persona con baja agudeza visual en esta pantalla?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Perceptible: facilitar el aumento de letra y de contraste",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Operable: toda la funcionalidad disponible desde el teclado"
+          },
+          {
+            "id": "c",
+            "texto": "Perceptible: alternativas para multimedia, como subtítulos"
+          },
+          {
+            "id": "d",
+            "texto": "Operable: evitar contenido que pueda causar convulsiones"
+          }
+        ]
+      },
+      "alternativa": {
+        "descripcion": "Una web de billetes de tren, vista borrosa. El título «Salidas desde Sevilla» y el botón «Comprar billete» se leen, porque son grandes. Los trenes están en letra pequeña: las horas 18:15, 18:45, 18:54, 16:45 y 19:45 se confunden entre sí, y Cádiz, Huelva y Jerez apenas se distinguen. Si amplías el texto (A+), los horarios se leen mejor.",
+        "enunciado": "En esta pantalla borrosa, ¿qué te ayudaría más a comprar el tren correcto?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Que la web deje aumentar el tamaño de la letra de los horarios",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Usar solo el teclado en lugar del ratón para elegir el tren"
+          },
+          {
+            "id": "c",
+            "texto": "Añadir un vídeo que explique cómo se compra un billete"
+          },
+          {
+            "id": "d",
+            "texto": "Escribir los horarios en rojo para que destaquen más"
+          }
+        ]
+      },
+      "explicacion": "Con baja agudeza visual, el texto pequeño se emborrona: 18:45 se confunde con 18:15, 18:54 o 16:45; lo grande sí se lee. La pauta 4 del principio Perceptible pide facilitar el aumento de letra y de contraste: si la web deja ampliar el texto (como A+ en esta actividad), el desenfoque pesa menos. Un ampliador de pantalla es la tecnología asistencial que hace esto.",
+      "diapositiva": 163
+    },
+    {
+      "id": "s06",
+      "tipo": "simulacion",
+      "peso": 2,
+      "grupo": "vision-baja",
+      "limitacion": "sol",
+      "enunciado": "En la web de la zona azul, paga 1 hora de aparcamiento para tu coche.",
+      "web": "Zona Azul Alameda · Pago",
+      "confirmacion": "Pago hecho",
+      "elementos": [
+        {
+          "t": "titulo",
+          "texto": "Pagar aparcamiento"
+        },
+        {
+          "t": "texto",
+          "texto": "Matrícula: 4821 KLM · Calle Feria"
+        },
+        {
+          "t": "opciones",
+          "id": "o1",
+          "texto": "Tiempo",
+          "color": "#A9A9B3",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "30 min · 0,60 €"
+            },
+            {
+              "id": "b",
+              "texto": "1 hora · 1,20 €"
+            },
+            {
+              "id": "c",
+              "texto": "2 horas · 2,40 €"
+            }
+          ]
+        },
+        {
+          "t": "boton",
+          "id": "b1",
+          "texto": "Cancelar",
+          "mensaje": "Pago cancelado. No se ha cobrado nada."
+        },
+        {
+          "t": "boton",
+          "id": "b2",
+          "texto": "Pagar",
+          "fin": true,
+          "color": "#FFFFFF",
+          "fondo": "#F6E7B8"
+        }
+      ],
+      "meta": {
+        "valores": {
+          "o1": "b"
+        }
+      },
+      "solucion": "elegir «1 hora · 1,20 €» y pulsar «Pagar», el botón amarillo pálido que al sol casi no se ve.",
+      "reflexion": {
+        "enunciado": "Al sol, esta pantalla falla igual que para una persona con visión reducida. ¿Cómo llama el temario a esta idea?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Paralelismos",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Infoexclusión"
+          },
+          {
+            "id": "c",
+            "texto": "Tecnología asistencial"
+          },
+          {
+            "id": "d",
+            "texto": "Habituación"
+          }
+        ]
+      },
+      "alternativa": {
+        "descripcion": "Una web para pagar el aparcamiento, vista al sol. Se leen el título «Pagar aparcamiento», la matrícula y el botón oscuro «Cancelar». Las tarifas (30 min por 0,60 €, 1 hora por 1,20 € y 2 horas por 2,40 €) están en gris claro y casi desaparecen. El botón «Pagar» es amarillo muy pálido con letras blancas: al sol parece un recuadro vacío.",
+        "enunciado": "¿Qué cambio haría que esta pantalla se pudiera usar al sol?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Subir el contraste: tarifas en gris oscuro y «Pagar» con texto oscuro",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Hacer «Pagar» más pequeño para que no tape el botón «Cancelar»"
+          },
+          {
+            "id": "c",
+            "texto": "Quitar la matrícula para que haya menos texto en la pantalla"
+          },
+          {
+            "id": "d",
+            "texto": "Cambiar la letra de las tarifas por otra más fina y elegante"
+          }
+        ]
+      },
+      "explicacion": "Al sol, el contraste cae: lo que ya era flojo (tarifas en gris claro, «Pagar» con letras blancas sobre amarillo pálido) desaparece, y lo oscuro se sigue viendo. Es un paralelismo: comparten el mismo problema quien tiene visión reducida y quien usa la pantalla en un contexto desfavorable (iluminación). Por el WIN-WIN, subir el contraste ayuda a los dos.",
+      "diapositiva": 156
+    },
+    {
+      "id": "s07",
+      "tipo": "simulacion",
+      "peso": 2,
+      "grupo": "vision-color",
+      "limitacion": "daltonismo",
+      "enunciado": "En Hilo Norte, añade a la cesta la sudadera Brisa en una talla que esté disponible.",
+      "web": "Hilo Norte · Tienda de ropa",
+      "confirmacion": "Añadida a la cesta",
+      "elementos": [
+        {
+          "t": "titulo",
+          "texto": "Sudadera Brisa"
+        },
+        {
+          "t": "texto",
+          "texto": "34,50 €"
+        },
+        {
+          "t": "opciones",
+          "id": "o1",
+          "texto": "Talla",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "S",
+              "color": "#E0533D",
+              "error": "Lo sentimos: esa talla está agotada."
+            },
+            {
+              "id": "b",
+              "texto": "M",
+              "color": "#4E9A2A"
+            },
+            {
+              "id": "c",
+              "texto": "L",
+              "color": "#E0533D",
+              "error": "Lo sentimos: esa talla está agotada."
+            },
+            {
+              "id": "d",
+              "texto": "XL",
+              "color": "#4E9A2A"
+            }
+          ]
+        },
+        {
+          "t": "texto",
+          "texto": "Verde: disponible · Rojo: agotada",
+          "tam": "pequeno"
+        },
+        {
+          "t": "boton",
+          "id": "b1",
+          "texto": "Añadir a la cesta",
+          "fin": true
+        }
+      ],
+      "meta": {
+        "valores": {
+          "o1": [
+            "b",
+            "d"
+          ]
+        }
+      },
+      "solucion": "añadir la talla M o la XL (las de círculo verde). Con este daltonismo solo se distinguen probando talla por talla.",
+      "reflexion": {
+        "enunciado": "¿Qué falla en esta web para una persona con daltonismo?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Que una talla esté disponible solo se indica con el color",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "El precio está escrito con una letra demasiado pequeña"
+          },
+          {
+            "id": "c",
+            "texto": "La web no se puede usar solo con el teclado"
+          },
+          {
+            "id": "d",
+            "texto": "Los vídeos de la web no tienen subtítulos"
+          }
+        ]
+      },
+      "alternativa": {
+        "descripcion": "Una tienda de ropa, vista con deuteranopía. Hay 4 tallas: S, M, L y XL. Cada talla lleva un círculo de color: verde si está disponible y rojo si está agotada. Una nota pequeña lo explica: «Verde: disponible · Rojo: agotada». Con este daltonismo, los 4 círculos se ven del mismo tono marrón: no sabes qué tallas quedan hasta que pruebas.",
+        "enunciado": "¿Qué cambio haría que cualquiera supiera qué tallas quedan?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Añadir a cada talla un texto o un icono, como «✓ Disponible» o «✕ Agotada»",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Usar un verde más brillante y un rojo más intenso en los círculos"
+          },
+          {
+            "id": "c",
+            "texto": "Hacer más grandes los círculos de color de cada talla"
+          },
+          {
+            "id": "d",
+            "texto": "Escribir la nota que explica los colores con letra más grande"
+          }
+        ]
+      },
+      "explicacion": "Con deuteranopía, el rojo y el verde se confunden: si el estado solo se dice con el color, hay que probar talla por talla. Es una limitación visual (problemas en la visualización del color). La pauta 3 del principio Perceptible pide contenido que se pueda presentar de diferentes maneras sin perder información: el color debe ir con texto o icono. Cambiar el tono o agrandar los círculos no basta.",
+      "diapositiva": 153
+    },
+    {
+      "id": "s08",
+      "tipo": "simulacion",
+      "peso": 2,
+      "grupo": "vision-color",
+      "limitacion": "daltonismo",
+      "enunciado": "En Hilo Norte, compra la chaqueta Duna: añade a la cesta una talla disponible.",
+      "web": "Hilo Norte · Tienda de ropa",
+      "confirmacion": "Añadida a la cesta",
+      "elementos": [
+        {
+          "t": "titulo",
+          "texto": "Chaqueta Duna"
+        },
+        {
+          "t": "texto",
+          "texto": "59,00 €"
+        },
+        {
+          "t": "opciones",
+          "id": "o1",
+          "texto": "Talla",
+          "opciones": [
+            {
+              "id": "a",
+              "texto": "38 · ✕ Agotada",
+              "color": "#E0533D",
+              "error": "Lo sentimos: esa talla está agotada."
+            },
+            {
+              "id": "b",
+              "texto": "40 · ✓ Disponible",
+              "color": "#4E9A2A"
+            },
+            {
+              "id": "c",
+              "texto": "42 · ✓ Disponible",
+              "color": "#4E9A2A"
+            },
+            {
+              "id": "d",
+              "texto": "44 · ✕ Agotada",
+              "color": "#E0533D",
+              "error": "Lo sentimos: esa talla está agotada."
+            }
+          ]
+        },
+        {
+          "t": "boton",
+          "id": "b1",
+          "texto": "Añadir a la cesta",
+          "fin": true
+        }
+      ],
+      "meta": {
+        "valores": {
+          "o1": [
+            "b",
+            "c"
+          ]
+        }
+      },
+      "solucion": "añadir la talla 40 o la 42: el texto «✓ Disponible» lo dice aunque no distingas el color.",
+      "reflexion": {
+        "enunciado": "¿Por qué esta web funciona también para una persona con daltonismo?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "Además del color, cada talla dice con texto e icono si está disponible",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "Usa un rojo y un verde que todas las personas distinguen bien"
+          },
+          {
+            "id": "c",
+            "texto": "Los círculos de color son grandes y fáciles de pulsar con el dedo"
+          },
+          {
+            "id": "d",
+            "texto": "La web también se puede usar solo con el teclado"
+          }
+        ]
+      },
+      "alternativa": {
+        "descripcion": "Una tienda de ropa, vista con deuteranopía. Hay 4 tallas: 38, 40, 42 y 44. Cada una lleva un círculo de color, que con este daltonismo se ve marrón en todas, y además un texto: «38 · ✕ Agotada», «40 · ✓ Disponible», «42 · ✓ Disponible» y «44 · ✕ Agotada».",
+        "enunciado": "¿Qué talla puedes añadir a la cesta?",
+        "opciones": [
+          {
+            "id": "a",
+            "texto": "La 42",
+            "correcta": true
+          },
+          {
+            "id": "b",
+            "texto": "La 38"
+          },
+          {
+            "id": "c",
+            "texto": "La 44"
+          },
+          {
+            "id": "d",
+            "texto": "Ninguna: con daltonismo no se puede saber"
+          }
+        ]
+      },
+      "explicacion": "El color va acompañado de texto e icono, así que el estado se entiende aunque el rojo y el verde se confundan. Es la pauta 3 del principio Perceptible: el contenido se puede presentar de diferentes maneras sin perder información. Y por el WIN-WIN, también ayuda en contextos desfavorables, como una pantalla al sol.",
+      "diapositiva": 163
+    },
+    {
+      "id": "r01",
+      "tipo": "clasificar",
+      "enunciado": "¿Qué tipo de limitación es cada una?",
+      "categorias": [
+        {
+          "id": "v",
+          "texto": "Visual"
+        },
+        {
+          "id": "a",
+          "texto": "Auditiva"
+        },
+        {
+          "id": "m",
+          "texto": "Motriz"
+        },
+        {
+          "id": "c",
+          "texto": "Cognitiva o de lenguaje"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Daltonismo",
+          "categoria": "v"
+        },
+        {
+          "id": "e2",
+          "texto": "Hipoacusia (oír poco)",
+          "categoria": "a"
+        },
+        {
+          "id": "e3",
+          "texto": "No poder mover las manos y usar la web con la voz",
+          "categoria": "m"
+        },
+        {
+          "id": "e4",
+          "texto": "Problemas de memoria para recordar los pasos de un trámite",
+          "categoria": "c"
+        },
+        {
+          "id": "e5",
+          "texto": "Visión reducida",
+          "categoria": "v"
+        },
+        {
+          "id": "e6",
+          "texto": "Dificultad para leer textos largos",
+          "categoria": "c"
+        },
+        {
+          "id": "e7",
+          "texto": "Temblor en las manos que impide usar el ratón",
+          "categoria": "m"
+        }
+      ],
+      "explicacion": "Visuales: ceguera, visión reducida y problemas con el color, como el daltonismo. Auditivas: sordera o hipoacusia. Motrices: la movilidad; quien no puede usar ratón, teclado o dedo usa dispositivos alternativos, por ejemplo de voz. Cognitivas y de lenguaje: lenguaje, lectura, percepción, memoria, salud mental… Una persona puede tener varias a la vez.",
+      "diapositiva": 154
+    },
+    {
+      "id": "r02",
+      "tipo": "clasificar",
+      "enunciado": "¿De dónde viene cada limitación de acceso?",
+      "categorias": [
+        {
+          "id": "i",
+          "texto": "De la persona"
+        },
+        {
+          "id": "t",
+          "texto": "De la tecnología"
+        },
+        {
+          "id": "m",
+          "texto": "Del ambiente"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Sol fuerte sobre la pantalla del móvil",
+          "categoria": "m"
+        },
+        {
+          "id": "e2",
+          "texto": "Una conexión que se corta en el metro",
+          "categoria": "t"
+        },
+        {
+          "id": "e3",
+          "texto": "No entender bien el idioma de la web",
+          "categoria": "i"
+        },
+        {
+          "id": "e4",
+          "texto": "Un navegador antiguo que muestra mal la web",
+          "categoria": "t"
+        },
+        {
+          "id": "e5",
+          "texto": "Una cafetería con mucho ruido",
+          "categoria": "m"
+        },
+        {
+          "id": "e6",
+          "texto": "Poca experiencia usando Internet",
+          "categoria": "i"
+        }
+      ],
+      "explicacion": "Las limitaciones pueden ser propias de la persona (discapacidades, idioma, conocimientos, experiencia), tecnológicas (dispositivo, software, conexión) o ambientales (contexto de uso: iluminación, ruido, visibilidad). Por eso la accesibilidad no es solo cosa de la discapacidad.",
+      "diapositiva": 145
+    },
+    {
+      "id": "r03",
+      "tipo": "clasificar",
+      "enunciado": "Tecnologías asistenciales: ¿es un dispositivo de entrada o de salida?",
+      "categorias": [
+        {
+          "id": "e",
+          "texto": "Entrada"
+        },
+        {
+          "id": "s",
+          "texto": "Salida"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Teclado Braille",
+          "categoria": "e"
+        },
+        {
+          "id": "e2",
+          "texto": "Software de reconocimiento de voz",
+          "categoria": "e"
+        },
+        {
+          "id": "e3",
+          "texto": "Licornio (apuntador en la cabeza)",
+          "categoria": "e"
+        },
+        {
+          "id": "e4",
+          "texto": "Webcam que sigue los ojos",
+          "categoria": "e"
+        },
+        {
+          "id": "e5",
+          "texto": "Lector de pantalla",
+          "categoria": "s"
+        },
+        {
+          "id": "e6",
+          "texto": "Ampliador de pantalla",
+          "categoria": "s"
+        },
+        {
+          "id": "e7",
+          "texto": "Navegador para personas ciegas",
+          "categoria": "s"
+        }
+      ],
+      "explicacion": "Los de entrada sirven para dar órdenes al ordenador: teclados (virtual, alternativo, Braille), reconocimiento de voz, apuntadores como el licornio y webcams que siguen los ojos o la cara. Los de salida presentan la información a la persona: lectores de pantalla, ampliadores y navegadores para ciegos.",
+      "diapositiva": 159
+    },
+    {
+      "id": "r04",
+      "tipo": "multiple",
+      "enunciado": "Patrón «uso del teclado»: ¿qué facilidades permiten usar una web sin ratón?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Tab para saltar de un campo a otro",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "Flechas, Intro o Espacio para marcar opciones",
+          "correcta": true
+        },
+        {
+          "id": "c",
+          "texto": "Intro para cerrar un diálogo",
+          "correcta": true
+        },
+        {
+          "id": "d",
+          "texto": "Atajos de teclado como Ctrl+S",
+          "correcta": true
+        },
+        {
+          "id": "e",
+          "texto": "Pasar el puntero por encima para abrir el menú"
+        },
+        {
+          "id": "f",
+          "texto": "Pellizcar con dos dedos para ampliar"
+        }
+      ],
+      "explicacion": "El patrón «uso del teclado» pide permitir la interacción con el teclado: atajos (Ctrl+S), flechas y Mayús en listas, Tab entre campos, flechas, Intro o Espacio en controles, e Intro en los diálogos. Pasar el puntero por encima o pellizcar con dos dedos necesitan ratón o pantalla táctil.",
+      "diapositiva": 44
+    },
+    {
+      "id": "r05",
+      "tipo": "unica",
+      "enunciado": "Una web pone subtítulos en sus vídeos pensando en las personas sordas. Según la idea WIN-WIN, ¿qué más consigue?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Ayuda también a quien ve el vídeo en un sitio ruidoso o sin poder poner sonido",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "Nada más: los subtítulos solo sirven a las personas con sordera o hipoacusia"
+        },
+        {
+          "id": "c",
+          "texto": "Que la web cargue más rápido aunque la conexión sea lenta o se corte"
+        },
+        {
+          "id": "d",
+          "texto": "Que la web se pueda usar sin ratón, solo con el teclado o con la voz"
+        }
+      ],
+      "explicacion": "WIN-WIN: un producto accesible para personas con discapacidad facilita también el acceso a usuarios en contextos desfavorables. Una sola acción aumenta doblemente el número de personas beneficiadas. Los subtítulos no cambian la velocidad de carga ni el uso con teclado.",
+      "diapositiva": 157
+    },
+    {
+      "id": "r06",
+      "tipo": "vf",
+      "enunciado": "La accesibilidad solo beneficia a las personas con discapacidad.",
+      "correcta": false,
+      "explicacion": "Falso. Las dificultades de acceso no son solo por diversidad funcional: también hay limitaciones tecnológicas y ambientales. Por el WIN-WIN, lo que se hace pensando en la discapacidad ayuda también a quien está al sol, en un sitio ruidoso o con una pantalla pequeña.",
+      "diapositiva": 157
+    },
+    {
+      "id": "r07",
+      "tipo": "unica",
+      "enunciado": "¿Qué es una tecnología asistencial?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Equipos, dispositivos o programas que ayudan a una persona con discapacidad a hacer tareas que no podría hacer de otra manera",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "Las pautas del W3C que explican cómo hacer una web accesible para personas con discapacidad"
+        },
+        {
+          "id": "c",
+          "texto": "Una herramienta en línea que mide el nivel de accesibilidad de una web, como TAW"
+        },
+        {
+          "id": "d",
+          "texto": "El servicio de ayuda técnica que atiende las dudas de los usuarios de una web"
+        }
+      ],
+      "explicacion": "La tecnología asistencial es el conjunto de equipos, dispositivos, instrumentos o programas que mejoran la calidad de vida de las personas con discapacidad: les ayudan a hacer tareas que no podrían hacer de otra manera y aumentan su autonomía. Las pautas son las WCAG y TAW es una herramienta para medir la accesibilidad.",
+      "diapositiva": 158
+    },
+    {
+      "id": "r08",
+      "tipo": "emparejar",
+      "enunciado": "Empareja cada problema con el principio de las WCAG que incumple.",
+      "pares": [
+        {
+          "id": "p1",
+          "izquierda": "Un vídeo sin subtítulos",
+          "derecha": "Perceptible"
+        },
+        {
+          "id": "p2",
+          "izquierda": "Un menú que solo se abre con el ratón",
+          "derecha": "Operable"
+        },
+        {
+          "id": "p3",
+          "izquierda": "Un mensaje de error que no dice cómo corregirlo",
+          "derecha": "Comprensible"
+        },
+        {
+          "id": "p4",
+          "izquierda": "Una web que deja de funcionar con el lector de pantalla al actualizar el navegador",
+          "derecha": "Robusto"
+        }
+      ],
+      "explicacion": "Perceptible: alternativas para multimedia, como los subtítulos. Operable: toda la funcionalidad desde el teclado. Comprensible: ayudar a evitar y corregir errores. Robusto: compatibilidad con los agentes de usuario actuales y futuros, incluidas las tecnologías asistidas.",
+      "diapositiva": 163
+    },
+    {
+      "id": "r09",
+      "tipo": "unica",
+      "enunciado": "Según el temario, ¿quién comparte el problema de visualización de una persona con visión reducida?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Quien mira un reloj inteligente o está en un sitio lleno de humo",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "Quien tiene una conexión lenta mientras viaja en el tren"
+        },
+        {
+          "id": "c",
+          "texto": "Quien no entiende bien el idioma en que está la web"
+        },
+        {
+          "id": "d",
+          "texto": "Quien prefiere usar el teclado para ir más rápido"
+        }
+      ],
+      "explicacion": "Es un paralelismo: comparten el mismo problema de visualización las personas con visión reducida y quienes usan pantallas pequeñas o acceden desde entornos llenos de humo. La conexión lenta y el idioma son otras limitaciones (tecnológica y propia de la persona), y preferir el teclado no es un problema de visualización.",
+      "diapositiva": 156
+    },
+    {
+      "id": "r10",
+      "tipo": "unica",
+      "enunciado": "Una persona con temblor en las manos falla al pulsar iconos pequeños y muy juntos. ¿Qué pauta de las WCAG lo resuelve?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Operable: elementos interactivos grandes y con espacio suficiente",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "Perceptible: texto descriptivo para imágenes y botones"
+        },
+        {
+          "id": "c",
+          "texto": "Comprensible: apariencia y funcionamiento predecibles"
+        },
+        {
+          "id": "d",
+          "texto": "Robusto: compatibilidad con las tecnologías asistidas"
+        }
+      ],
+      "explicacion": "Es la pauta 5 del principio Operable: los elementos de interacción deben ser lo bastante grandes y tener espacio para que las personas con discapacidad motriz puedan usarlos. Por el WIN-WIN, también ayuda a quien usa el móvil caminando o en un autobús.",
+      "diapositiva": 164
+    },
+    {
+      "id": "r11",
+      "tipo": "vf",
+      "enunciado": "Un diseño es accesible cuando es usable para más personas y en más contextos de uso.",
+      "correcta": true,
+      "explicacion": "Verdadero. Un diseño será accesible cuando sea usable para más personas, en más contextos de uso, y permita a todos hacer sus tareas de forma eficiente y satisfactoria. Accesibilidad y usabilidad van juntas.",
+      "diapositiva": 147
+    }
+  ],
+  "diapositivas": {
+    "44": "Patrón uso del teclado: no todo el mundo puede o quiere usar ratón o dedo. Atajos, flechas y Mayús en listas, Tab entre campos, flechas, Enter o Espacio en controles, Enter para cerrar diálogos.",
+    "145": "Limitaciones a considerar para la accesibilidad web: propias del individuo (discapacidades, idioma, conocimientos, experiencia…), tecnológicas y ambientales.",
+    "147": "Un diseño será accesible cuando sea usable para más personas, en más contextos de uso, permitiendo a todos los usuarios hacer sus tareas de forma eficiente y satisfactoria.",
+    "153": "Limitaciones de acceso por discapacidades. Visuales: ceguera, visión reducida y problemas en la visualización del color (como el daltonismo). Auditivas: sordera o hipoacusia.",
+    "154": "Limitaciones de acceso por discapacidades. Motrices: movilidad; no pueden usar el sistema de forma tradicional (ratón, teclado, dedo) y usan dispositivos alternativos, por ejemplo de voz. Cognitivas y de lenguaje: lenguaje, lectura, percepción, memoria, salud mental… Estas discapacidades no son excluyentes entre sí.",
+    "156": "Paralelismos: comparten el mismo problema de visualización las personas con visión reducida y quienes usan pantallas pequeñas o acceden desde entornos llenos de humo. Fotos de un reloj inteligente y de una persona haciendo una foto con niebla.",
+    "157": "WIN-WIN: un producto accesible para personas con discapacidad facilita también el acceso a usuarios en contextos desfavorables y con otras limitaciones. Una sola acción aumenta doblemente el número de usuarios beneficiados.",
+    "158": "Tecnología asistencial: equipos, dispositivos, instrumentos o programas que mejoran la calidad de vida de las personas con discapacidad; ayudan a hacer tareas que no podrían hacer de otra manera e incrementan su autonomía.",
+    "159": "Tecnologías asistenciales para discapacidad visual. Entrada: teclados (virtual, alternativo, Braille), reconocimiento de voz, apuntadores (licornios), webcams que siguen los ojos o la cara. Salida: lectores de pantalla, ampliadores de pantalla y navegadores para ciegos.",
+    "163": "WCAG 2.0, principio Perceptible: los componentes deben poder percibirse por algún sentido. Pautas: 1 texto descriptivo para imágenes, mapas, enlaces, botones; 2 alternativas para multimedia (subtítulos, lengua de signos); 3 contenido que pueda presentarse de diferentes maneras sin perder información ni estructura; 4 facilitar aumento de letra y de contraste; 5 en audiovisual, evitar voz en off + música.",
+    "164": "WCAG 2.0, principio Operable: la interfaz no puede exigir una interacción imposible para el usuario. Pautas: 1 toda la funcionalidad desde el teclado; 2 tiempo suficiente para leer y usar el contenido; 3 evitar contenido que pueda causar convulsiones; 4 ayudas para navegar, localizar contenido y saber dónde se está; 5 elementos interactivos grandes y con espacio suficiente."
+  }
+}

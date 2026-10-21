@@ -1,0 +1,381 @@
+{
+  "id": "ut2-11-reto-contraste",
+  "titulo": "Reto de contraste",
+  "subtitulo": "UT2 · Diseño y desarrollo web · 3º EAS Diseño Gráfico",
+  "etiqueta": "UT2 · Diseño y desarrollo web",
+  "objetivo": "Ajustas los colores de botones, textos y campos para que cumplan el nivel AA de contraste, cambiando el diseño lo menos posible. Y repasas por qué el color no basta.",
+  "minutos": 10,
+  "preguntasPorIntento": 8,
+  "aprobado": 50,
+  "garantizar": [
+    "contraste",
+    "contraste",
+    "contraste",
+    "contraste"
+  ],
+  "instrucciones": {
+    "contraste": "Mueve el control o usa los botones para cambiar la luminosidad (el tono no cambia). Cumple el nivel AA cambiando lo menos posible: vale entero si quedas entre el mínimo y 1 punto más; si te pasas, la mitad. En AA, el texto normal necesita 4,5:1; el texto grande (desde 24 px, o 19 px en negrita) y los bordes de los controles, 3:1."
+  },
+  "diapositivas": {
+    "153": "Limitaciones de acceso por discapacidades. Visuales: ceguera, visión reducida y problemas en la visualización del color (como el daltonismo). Auditivas: sordera o hipoacusia.",
+    "156": "Paralelismos: comparten el mismo problema de visualización las personas con visión reducida y quienes usan pantallas pequeñas o acceden desde entornos llenos de humo. Fotos de un reloj inteligente y de una persona haciendo una foto con niebla.",
+    "157": "WIN-WIN: un producto accesible para personas con discapacidad facilita también el acceso a usuarios en contextos desfavorables y con otras limitaciones. Una sola acción aumenta doblemente el número de usuarios beneficiados.",
+    "163": "WCAG 2.0, principio Perceptible: los componentes deben poder percibirse por algún sentido. Pautas: 1 texto descriptivo para imágenes, mapas, enlaces, botones; 2 alternativas para multimedia; 3 contenido que pueda presentarse de diferentes maneras sin perder información ni estructura; 4 facilitar aumento de letra y de contraste; 5 en audiovisual, evitar voz en off + música.",
+    "167": "Niveles de accesibilidad: se agrupan por bloques de puntos cumplidos y cada bloque suma una letra A. 100 % accesible = WAI AAA o Triple A. Se puede medir con herramientas en línea como TAW."
+  },
+  "banco": [
+    {
+      "id": "q01",
+      "tipo": "contraste",
+      "grupo": "boton",
+      "enunciado": "La app del restaurante Sabor Lento tiene el botón «Reservar mesa» en su naranja de marca, con texto blanco de 16 px. Oscurece el naranja hasta que el texto cumpla el nivel AA.",
+      "muestra": "boton",
+      "texto": "Reservar mesa",
+      "color": "#FFFFFF",
+      "fondo": "#F28C38",
+      "ajustar": "fondo",
+      "objetivo": 4.5,
+      "explicacion": "El texto del botón es texto normal (16 px): AA pide 4,5:1. El blanco sobre el naranja original solo llega a 2,44:1. Al oscurecer el naranja sin cambiar su tono, la marca se reconoce y el texto se lee mejor. Es la pauta «facilitar aumento de letra y de contraste» del principio Perceptible. Las cifras de contraste (4,5:1 y 3:1) son de la norma WCAG; el temario no las da.",
+      "diapositiva": 163
+    },
+    {
+      "id": "q02",
+      "tipo": "contraste",
+      "grupo": "boton",
+      "enunciado": "La web de la clínica Brisa tiene el botón «Pedir cita» en azul cielo, con texto blanco de 16 px. Oscurece el azul hasta que el texto cumpla el nivel AA.",
+      "muestra": "boton",
+      "texto": "Pedir cita",
+      "color": "#FFFFFF",
+      "fondo": "#2FA8D5",
+      "ajustar": "fondo",
+      "objetivo": 4.5,
+      "explicacion": "El texto del botón es texto normal (16 px): AA pide 4,5:1. El blanco sobre el azul cielo original solo llega a 2,73:1. Un azul más oscuro del mismo tono conserva la marca y cumple. Es la pauta «facilitar aumento de letra y de contraste» del principio Perceptible. Las cifras de contraste (4,5:1 y 3:1) son de la norma WCAG; el temario no las da.",
+      "diapositiva": 163
+    },
+    {
+      "id": "q03",
+      "tipo": "contraste",
+      "grupo": "parrafo",
+      "enunciado": "El blog de recetas Migas usa texto gris claro de 16 px sobre blanco porque «queda más elegante». Oscurece el gris hasta que el texto cumpla el nivel AA.",
+      "muestra": "parrafo",
+      "texto": "Deja reposar la masa 20 minutos antes de hornearla.",
+      "color": "#A0A0A0",
+      "fondo": "#FFFFFF",
+      "ajustar": "color",
+      "objetivo": 4.5,
+      "explicacion": "Es texto normal (16 px): AA pide 4,5:1. El gris claro original solo llega a 2,61:1 y cuesta leerlo con visión reducida, con el brillo bajo o al sol. Un gris algo más oscuro mantiene el aspecto suave y cumple. Es la pauta «facilitar aumento de letra y de contraste» del principio Perceptible. Las cifras de contraste (4,5:1 y 3:1) son de la norma WCAG; el temario no las da.",
+      "diapositiva": 163
+    },
+    {
+      "id": "q04",
+      "tipo": "contraste",
+      "grupo": "parrafo",
+      "enunciado": "En el modo oscuro de la app de notas Pizarra, el texto de las notas (16 px) es gris oscuro sobre un fondo casi negro. Aclara el texto hasta que cumpla el nivel AA.",
+      "muestra": "parrafo",
+      "texto": "Comprar pilas y llamar a Nuria antes de las siete.",
+      "color": "#6B6B7B",
+      "fondo": "#1E1E28",
+      "ajustar": "color",
+      "objetivo": 4.5,
+      "explicacion": "Es texto normal (16 px): AA pide 4,5:1. El gris original solo llega a 3,15:1. En modo oscuro el contraste se gana aclarando el texto. Es la pauta «facilitar aumento de letra y de contraste» del principio Perceptible. Las cifras de contraste (4,5:1 y 3:1) son de la norma WCAG; el temario no las da.",
+      "diapositiva": 163
+    },
+    {
+      "id": "q05",
+      "tipo": "contraste",
+      "grupo": "titular",
+      "enunciado": "La tienda de ropa Telar anuncia «Rebajas de otoño» con un titular de 28 px en negrita, en color coral sobre blanco. Oscurece el coral hasta que el titular cumpla el nivel AA.",
+      "muestra": "titular",
+      "texto": "Rebajas de otoño",
+      "color": "#FF8A80",
+      "fondo": "#FFFFFF",
+      "ajustar": "color",
+      "objetivo": 3,
+      "explicacion": "Es texto grande (28 px en negrita): AA pide 3:1, no 4,5:1. El coral original solo llega a 2,28:1. Con 3:1 basta: si oscureces hasta 4,5:1, cumples, pero el coral de la marca cambia más de lo necesario. Es la pauta «facilitar aumento de letra y de contraste» del principio Perceptible. Las cifras de contraste (4,5:1 y 3:1) son de la norma WCAG; el temario no las da.",
+      "diapositiva": 163
+    },
+    {
+      "id": "q06",
+      "tipo": "contraste",
+      "grupo": "titular",
+      "enunciado": "La floristería Hoja Viva anuncia «Nueva colección» con un titular de 28 px en negrita, en verde menta sobre blanco. Oscurece el verde hasta que el titular cumpla el nivel AA.",
+      "muestra": "titular",
+      "texto": "Nueva colección",
+      "color": "#7FC8A9",
+      "fondo": "#FFFFFF",
+      "ajustar": "color",
+      "objetivo": 3,
+      "explicacion": "Es texto grande (28 px en negrita): AA pide 3:1, no 4,5:1. El verde menta original solo llega a 1,95:1. Con 3:1 basta: si oscureces hasta 4,5:1, cumples, pero el verde cambia más de lo necesario. Es la pauta «facilitar aumento de letra y de contraste» del principio Perceptible. Las cifras de contraste (4,5:1 y 3:1) son de la norma WCAG; el temario no las da.",
+      "diapositiva": 163
+    },
+    {
+      "id": "q07",
+      "tipo": "contraste",
+      "grupo": "campo",
+      "enunciado": "En el formulario de la academia de música Pentagrama, el borde del campo «Correo electrónico» es gris muy claro sobre blanco. Hay quien no ve dónde escribir. Oscurece el borde hasta que cumpla el nivel AA.",
+      "muestra": "campo",
+      "texto": "nombre@correo.es",
+      "color": "#D6D6D6",
+      "fondo": "#FFFFFF",
+      "ajustar": "color",
+      "objetivo": 3,
+      "tinta": "#1F1F1F",
+      "etiqueta": "Correo electrónico",
+      "explicacion": "El borde de un campo no es texto: es parte de un control. AA pide 3:1 para los bordes e iconos que hacen falta para usar un control. El gris original solo llega a 1,45:1: con visión reducida, el campo desaparece. Es la pauta «facilitar aumento de letra y de contraste» del principio Perceptible. Las cifras de contraste (4,5:1 y 3:1) son de la norma WCAG; el temario no las da.",
+      "diapositiva": 163
+    },
+    {
+      "id": "q08",
+      "tipo": "contraste",
+      "grupo": "campo",
+      "enunciado": "En el modo oscuro de la app del gimnasio Ritmo, el borde del campo «Contraseña» es gris azulado oscuro sobre un fondo casi negro. Aclara el borde hasta que cumpla el nivel AA.",
+      "muestra": "campo",
+      "texto": "••••••••",
+      "color": "#4A4A6A",
+      "fondo": "#12121A",
+      "ajustar": "color",
+      "objetivo": 3,
+      "tinta": "#F1F1F4",
+      "etiqueta": "Contraseña",
+      "explicacion": "El borde de un campo no es texto: es parte de un control. AA pide 3:1 para los bordes e iconos que hacen falta para usar un control. El borde original solo llega a 2,19:1. En modo oscuro, se gana contraste aclarando el borde. Es la pauta «facilitar aumento de letra y de contraste» del principio Perceptible. Las cifras de contraste (4,5:1 y 3:1) son de la norma WCAG; el temario no las da.",
+      "diapositiva": 163
+    },
+    {
+      "id": "c01",
+      "tipo": "unica",
+      "enunciado": "En la app de banca Alcancía, los ingresos salen en verde y los gastos en rojo, sin signo ni palabra. ¿A quién le cuesta más entender sus movimientos?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "A una persona con daltonismo",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "A una persona sorda"
+        },
+        {
+          "id": "c",
+          "texto": "A una persona que navega solo con el teclado"
+        },
+        {
+          "id": "d",
+          "texto": "A una persona con una conexión lenta"
+        }
+      ],
+      "explicacion": "El daltonismo es un problema de visualización del color, una de las limitaciones visuales del temario. Si verde y rojo son la única diferencia, una persona con daltonismo puede no distinguir un ingreso de un gasto. La sordera, el teclado o la conexión no afectan a cómo se ven los colores.",
+      "diapositiva": 153,
+      "grupo": "alcancia"
+    },
+    {
+      "id": "c02",
+      "tipo": "unica",
+      "enunciado": "La app de banca Alcancía marca los ingresos en verde y los gastos en rojo, sin nada más. ¿Qué cambio ayuda a las personas con daltonismo?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Añadir el signo + o − y la palabra «Ingreso» o «Gasto», además del color",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "Usar un verde y un rojo más intensos"
+        },
+        {
+          "id": "c",
+          "texto": "Cambiar el verde por un azul y dejar el rojo"
+        },
+        {
+          "id": "d",
+          "texto": "Poner el importe en negrita"
+        }
+      ],
+      "explicacion": "La información no debe depender solo del color: hay que darla también con texto o signos. Un verde más intenso o un azul siguen siendo solo color. La negrita no dice si es un ingreso o un gasto.",
+      "diapositiva": 153,
+      "grupo": "alcancia"
+    },
+    {
+      "id": "c03",
+      "tipo": "vf",
+      "enunciado": "Si un texto tiene buen contraste con su fondo, ya puedes usar solo el color para distinguir dos estados, por ejemplo «activo» en verde e «inactivo» en rojo.",
+      "correcta": false,
+      "explicacion": "Falso. El contraste ayuda a leer, pero no resuelve el daltonismo: una persona que no distingue el verde del rojo seguirá sin saber qué estado es. Añade una palabra o un icono además del color.",
+      "diapositiva": 153
+    },
+    {
+      "id": "c04",
+      "tipo": "vf",
+      "enunciado": "Un buen contraste solo ayuda a las personas con visión reducida.",
+      "correcta": false,
+      "explicacion": "Falso. Según los paralelismos del temario, tienen el mismo problema de visualización quienes usan pantallas pequeñas o están en entornos llenos de humo. Y también quien mira el móvil al sol.",
+      "diapositiva": 156
+    },
+    {
+      "id": "c05",
+      "tipo": "multiple",
+      "enunciado": "¿Qué personas comparten el problema de visualización de alguien con visión reducida?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Quien consulta un reloj inteligente de pantalla pequeña",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "Quien usa el móvil en un sitio lleno de humo",
+          "correcta": true
+        },
+        {
+          "id": "c",
+          "texto": "Quien tiene una conexión muy lenta"
+        },
+        {
+          "id": "d",
+          "texto": "Quien trabaja en un bar con mucho ruido"
+        }
+      ],
+      "explicacion": "El temario (paralelismos) une la visión reducida con las pantallas pequeñas y los entornos llenos de humo. La conexión lenta es una limitación tecnológica y el ruido afecta al oído, no a la vista.",
+      "diapositiva": 156
+    },
+    {
+      "id": "c06",
+      "tipo": "unica",
+      "enunciado": "El equipo de la app Sabor Lento sube el contraste de sus botones pensando en las personas mayores. ¿Qué más consigue?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Que también la usen mejor quienes la consultan al sol",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "Nada más: solo ayuda a las personas mayores"
+        },
+        {
+          "id": "c",
+          "texto": "Que la app cargue más rápido"
+        },
+        {
+          "id": "d",
+          "texto": "Que el lector de pantalla lea los botones"
+        }
+      ],
+      "explicacion": "Es el WIN-WIN del temario: un diseño accesible para personas con discapacidad ayuda también a quien está en un contexto desfavorable, como el sol en la pantalla. El contraste no cambia la velocidad de carga ni lo que lee un lector de pantalla.",
+      "diapositiva": 157
+    },
+    {
+      "id": "c07",
+      "tipo": "unica",
+      "enunciado": "«Facilitar aumento de letra y de contraste» es una pauta de las WCAG 2.0. ¿De qué principio?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Perceptible",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "Operable"
+        },
+        {
+          "id": "c",
+          "texto": "Comprensible"
+        },
+        {
+          "id": "d",
+          "texto": "Robusto"
+        }
+      ],
+      "explicacion": "Es la pauta 4 del principio Perceptible: los componentes de la interfaz deben poder percibirse. Operable trata de cómo se usa; Comprensible, de si se entiende; Robusto, de la compatibilidad con navegadores y tecnologías asistidas.",
+      "diapositiva": 163
+    },
+    {
+      "id": "c08",
+      "tipo": "unica",
+      "enunciado": "¿Qué nivel de accesibilidad equivale a «100 % accesible»?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Triple A (AAA)",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "Doble A (AA)"
+        },
+        {
+          "id": "c",
+          "texto": "A"
+        },
+        {
+          "id": "d",
+          "texto": "No existe ningún nivel así"
+        }
+      ],
+      "explicacion": "Cada bloque de puntos cumplidos suma una letra A. El nivel más alto, 100 % accesible, es WAI AAA o Triple A. AA es el nivel intermedio, el que se pide en este reto.",
+      "diapositiva": 167
+    },
+    {
+      "id": "c09",
+      "tipo": "vf",
+      "enunciado": "Una web con nivel AA cumple más puntos de las pautas que una web con nivel A.",
+      "correcta": true,
+      "explicacion": "Verdadero. Los niveles se agrupan por bloques de puntos cumplidos y cada bloque suma una A: A < AA < AAA. En contraste, por ejemplo, AAA pide 7:1 para texto normal y AA, 4,5:1 (cifras de la norma WCAG, no del temario).",
+      "diapositiva": 167
+    },
+    {
+      "id": "c10",
+      "tipo": "unica",
+      "enunciado": "Para cumplir AA, ¿qué contraste mínimo necesita el titular «Rebajas» de 32 px en negrita?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "3:1",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "4,5:1"
+        },
+        {
+          "id": "c",
+          "texto": "7:1"
+        },
+        {
+          "id": "d",
+          "texto": "2:1"
+        }
+      ],
+      "explicacion": "Es texto grande (desde 24 px, o 19 px en negrita): AA pide 3:1. 4,5:1 es para texto normal y 7:1 es el nivel AAA para texto normal. Estas cifras son de la norma WCAG; el temario solo dice «facilitar aumento de letra y de contraste».",
+      "diapositiva": 163,
+      "grupo": "umbral"
+    },
+    {
+      "id": "c11",
+      "tipo": "unica",
+      "enunciado": "Para cumplir AA, ¿qué contraste mínimo necesita el aviso legal de 14 px al pie de una web?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "4,5:1",
+          "correcta": true
+        },
+        {
+          "id": "b",
+          "texto": "3:1"
+        },
+        {
+          "id": "c",
+          "texto": "7:1"
+        },
+        {
+          "id": "d",
+          "texto": "2:1"
+        }
+      ],
+      "explicacion": "Es texto normal (menos de 24 px, sin negrita): AA pide 4,5:1. 3:1 es para texto grande y bordes de controles; 7:1 es el nivel AAA. Estas cifras son de la norma WCAG; el temario solo dice «facilitar aumento de letra y de contraste».",
+      "diapositiva": 163,
+      "grupo": "umbral"
+    }
+  ]
+}

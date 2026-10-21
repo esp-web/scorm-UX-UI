@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Mapa del curso online Acuarela desde cero</title>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#111015"/></marker></defs>
+<rect width="800" height="250" fill="#FFFFFF"/>
+<path d="M152,70 L183,70" fill="none" stroke="#111015" stroke-width="2" marker-start="url(#f)" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M307,70 L338,70" fill="none" stroke="#111015" stroke-width="2" marker-start="url(#f)" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M462,70 L493,70" fill="none" stroke="#111015" stroke-width="2" marker-start="url(#f)" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M617,70 L648,70" fill="none" stroke="#111015" stroke-width="2" marker-start="url(#f)" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="29.0" y="47.0" width="122" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="90" y="76.0" text-anchor="middle" font-size="18">Bienvenida</text>
+<rect x="184.0" y="47.0" width="122" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="245" y="76.0" text-anchor="middle" font-size="18">Tema 1</text>
+<rect x="339.0" y="47.0" width="122" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="400" y="76.0" text-anchor="middle" font-size="18">Tema 2</text>
+<rect x="494.0" y="47.0" width="122" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="555" y="76.0" text-anchor="middle" font-size="18">Tema 3</text>
+<rect x="649.0" y="47.0" width="122" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="710" y="76.0" text-anchor="middle" font-size="18">Diploma</text>
+<path d="M245,93 L245,157" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="184.0" y="157.0" width="122" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="245" y="186.0" text-anchor="middle" font-size="18">Ejercicios</text>
+<path d="M400,93 L400,157" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="339.0" y="157.0" width="122" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="400" y="186.0" text-anchor="middle" font-size="18">Ejercicios</text>
+<path d="M555,93 L555,157" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="494.0" y="157.0" width="122" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="555" y="186.0" text-anchor="middle" font-size="18">Ejercicios</text>
+</svg>

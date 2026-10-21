@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 560 1092" width="560" height="1092" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Tres pantallas de apps distintas, numeradas del 1 al 3</title>
+<rect width="560" height="1092" fill="#FFFFFF"/>
+<rect x="10" y="10" width="540" height="334" rx="16" fill="#FFFFFF" stroke="#C4C2D0" stroke-width="2"/>
+<rect x="12" y="12" width="536" height="70" rx="14" fill="#F1F1F4"/>
+<g transform="translate(0,84)">
+<rect x="24" y="0" width="512" height="250" rx="12" fill="#E3EED9"/>
+<path d="M24 210 C 140 150, 300 250, 536 170" stroke="#FFFFFF" stroke-width="14" fill="none"/>
+<circle cx="70" cy="60" r="16" fill="#C0352F"/>
+<rect x="110" y="24" width="410" height="196" rx="12" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<text x="130" y="64" font-size="24" font-weight="bold" text-anchor="start" fill="#111015">Mirador de San Nicolás</text>
+<text x="130" y="96" font-size="19" font-weight="normal" text-anchor="start" fill="#5A5868">Abierto todo el día</text>
+<rect x="130" y="126" width="370" height="64" rx="32.0" fill="#111015"/><text x="315.0" y="165.7" font-size="22" font-weight="bold" text-anchor="middle" fill="#FFFFFF">☆ Guardar en «Quiero ir»</text>
+</g>
+<rect x="10" y="364" width="540" height="344" rx="16" fill="#FFFFFF" stroke="#C4C2D0" stroke-width="2"/>
+<rect x="12" y="366" width="536" height="70" rx="14" fill="#F1F1F4"/>
+<g transform="translate(0,438)">
+<rect x="24" y="0" width="512" height="260" rx="14" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<text x="48" y="40" font-size="24" font-weight="bold" text-anchor="start" fill="#111015">Atajos de teclado</text>
+<rect x="48" y="60" width="64" height="40" rx="6" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="80" y="88" font-size="20" font-weight="bold" text-anchor="middle" fill="#111015">J</text>
+<text x="128" y="88" font-size="20" font-weight="normal" text-anchor="start" fill="#111015">noticia siguiente</text>
+<rect x="48" y="108" width="64" height="40" rx="6" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="80" y="136" font-size="20" font-weight="bold" text-anchor="middle" fill="#111015">K</text>
+<text x="128" y="136" font-size="20" font-weight="normal" text-anchor="start" fill="#111015">noticia anterior</text>
+<rect x="48" y="156" width="64" height="40" rx="6" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="80" y="184" font-size="20" font-weight="bold" text-anchor="middle" fill="#111015">/</text>
+<text x="128" y="184" font-size="20" font-weight="normal" text-anchor="start" fill="#111015">buscar</text>
+<rect x="48" y="204" width="64" height="40" rx="6" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="80" y="232" font-size="20" font-weight="bold" text-anchor="middle" fill="#111015">Esc</text>
+<text x="128" y="232" font-size="20" font-weight="normal" text-anchor="start" fill="#111015">cerrar</text>
+</g>
+<rect x="10" y="728" width="540" height="344" rx="16" fill="#FFFFFF" stroke="#C4C2D0" stroke-width="2"/>
+<rect x="12" y="730" width="536" height="70" rx="14" fill="#F1F1F4"/>
+<g transform="translate(0,802)">
+<rect x="24" y="0" width="512" height="260" rx="12" fill="#F1F1F4"/>
+<circle cx="60" cy="36" r="20" fill="#C4C2D0"/>
+<text x="92" y="43" font-size="20" font-weight="bold" text-anchor="start" fill="#111015">lucia.dibuja</text>
+<rect x="40" y="70" width="160" height="170" rx="8" fill="#C4C2D0"/>
+<text x="220" y="100" font-size="22" font-weight="bold" text-anchor="start" fill="#C0352F">♥ 1.204 me gusta</text>
+<text x="220" y="136" font-size="20" font-weight="normal" text-anchor="start" fill="#111015">87 comentarios</text>
+<text x="220" y="170" font-size="20" font-weight="bold" text-anchor="start" fill="#2F5BD8">Compartir</text>
+<rect x="220" y="190" width="296" height="46" rx="23" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<text x="238" y="220" font-size="18" font-weight="normal" text-anchor="start" fill="#5A5868">Escribe un comentario…</text>
+</g>
+</svg>

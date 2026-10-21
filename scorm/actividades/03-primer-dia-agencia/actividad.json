@@ -1,0 +1,928 @@
+{
+  "id": "ut2-03-primer-dia-agencia",
+  "titulo": "Primer día en la agencia",
+  "subtitulo": "UT2 · Diseño y desarrollo web · 3º EAS Diseño Gráfico",
+  "etiqueta": "UT2 · Diseño y desarrollo web",
+  "objetivo": "Es tu primer día en una agencia de diseño web. Llegan encargos de clientes y tienes que pasar cada uno al perfil profesional que le corresponde: UX, UI, IxD, frontend o backend.",
+  "minutos": 20,
+  "preguntasPorIntento": 12,
+  "aprobado": 50,
+  "diapositivas": {
+    "11": "Diagrama UX y UI: a la izquierda, tareas UX (investigación con usuarios, arquitectura de información, wireframes, test A/B); a la derecha, tareas UI (diseño de interacción, diseño visual y gráfico, tipografías, sistemas de diseño).",
+    "17": "Actividades de un diseñador UX: investigaciones (test con usuarios, card sorting, tree test, five second test, personas, focus group), evaluaciones (análisis heurísticos), análisis de datos (test A/B), arquitectura de información y wireframes.",
+    "66": "Material de trabajo de la diseñadora UI: selecciona, distribuye y estiliza textos (títulos, claims, descripciones), imágenes, botones y campos de formulario.",
+    "67": "Es de vital importancia que la interfaz sea accesible, usable, atractiva y que favorezca la experiencia del usuario.",
+    "68": "Es nuestro perfil: el diseñador UI necesita conocimientos de diseño gráfico, psicología de la forma y del color, tipografía, composición y maquetación, y también conocimientos informáticos.",
+    "69": "Actividades de un diseñador UI: líneas del diseño visual y guías de estilo; diseño de elementos y componentes (sistema de diseño); diseño de interacción (prototipado) y guías de interacción.",
+    "70": "Diseño de interacción (IxD): define las formas de operar la interfaz, cómo el usuario se puede relacionar con la web y cómo esta le responde.",
+    "72": "Por ejemplo: ¿la información se introduce con teclado, ratón, táctil o una combinación? ¿Se usan desplegables o campos de texto? ¿El sistema te sugiere cómo completar o no?",
+    "75": "Desarrollo frontend: se encarga de la parte que muestra el navegador. No diseña, traduce: codifica los diseños de UX/UI con HTML, CSS y JavaScript, y muestra en pantalla los datos que llegan del servidor.",
+    "76": "Desarrollo backend: parte lógica del sitio web. Programa sus funciones, diseña y desarrolla la base de datos, administra el servidor, procesa las peticiones de los clientes y facilita los datos que el frontend necesita.",
+    "78": "Iceberg «¿Qué es backend y frontend?»: arriba, el frontend (validaciones, consumo de APIs, lógica en el cliente, interfaz web); sumergido, el backend (bases de datos, seguridad, rendimiento, microservicios, lógica en el servidor, programar API); en medio, la API."
+  },
+  "instrucciones": {
+    "clasificar": "Elige qué perfil profesional se encarga de este trabajo."
+  },
+  "banco": [
+    {
+      "id": "q01",
+      "tipo": "clasificar",
+      "enunciado": "Nora, de la clínica veterinaria Patitas: «Mucha gente empieza a pedir cita en la web y la deja a medias. Queremos saber por qué.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Averiguar por qué la gente deja la cita a medias",
+          "categoria": "c1"
+        }
+      ],
+      "explicacion": "Es UX. Hacer test con usuarios para entender qué les pasa es investigación, la primera actividad de quien diseña la UX. No es frontend: el código puede funcionar bien y la gente abandonar igual.",
+      "diapositiva": 17
+    },
+    {
+      "id": "q02",
+      "tipo": "clasificar",
+      "enunciado": "Celia, de la librería La Polilla: «Tenemos 40 secciones en el menú y nadie encuentra nada.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Decidir cómo agrupar y ordenar las secciones del menú",
+          "categoria": "c1"
+        }
+      ],
+      "explicacion": "Es UX. Decidir qué va en cada grupo es arquitectura de la información, y se apoya en técnicas como el card sorting. La UI decidirá después cómo se ve el menú, no qué contiene.",
+      "diapositiva": 17
+    },
+    {
+      "id": "q03",
+      "tipo": "clasificar",
+      "enunciado": "Telmo, de la app de huertos Brote: «Antes de pensar en colores, queremos ver qué irá en cada pantalla.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Dibujar los wireframes de las pantallas de la app",
+          "categoria": "c1"
+        }
+      ],
+      "explicacion": "Es UX. Los wireframes son esquemas de qué contenido va en cada pantalla, sin estilo visual. Los colores y la tipografía llegan después, con la UI.",
+      "diapositiva": 11
+    },
+    {
+      "id": "q04",
+      "tipo": "clasificar",
+      "enunciado": "Bruno, de la pizzería Forno Lento: «Dudamos entre dos versiones de la página de pedidos.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Probar las dos versiones con usuarios reales y medir cuál funciona mejor",
+          "categoria": "c1"
+        }
+      ],
+      "explicacion": "Es UX. Comparar dos versiones con datos reales es un test A/B: análisis de datos, una actividad de UX. No es UI: no se trata de que se vea mejor, sino de saber cuál funciona mejor para las personas.",
+      "diapositiva": 17
+    },
+    {
+      "id": "q05",
+      "tipo": "clasificar",
+      "enunciado": "Maribel, del teatro Alameda: «Queremos que alguien revise nuestra web actual y nos diga qué falla al usarla.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Evaluar la web actual con un análisis heurístico",
+          "categoria": "c1"
+        }
+      ],
+      "explicacion": "Es UX. Las evaluaciones con análisis heurísticos son una actividad de UX: revisan si la web es fácil de usar. No es backend: no se revisa el servidor, sino la experiencia de quien usa la web.",
+      "diapositiva": 17
+    },
+    {
+      "id": "q06",
+      "tipo": "clasificar",
+      "enunciado": "Elvira, de la floristería Margarita: «La web parece antigua. Queremos una imagen más fresca, como la tienda.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Elegir la paleta de colores y las tipografías de la web",
+          "categoria": "c2"
+        }
+      ],
+      "explicacion": "Es UI. El color y la tipografía son diseño visual y gráfico, el núcleo del perfil UI. No es UX: la UX decide qué experiencia ofrecer; la UI le da forma visual.",
+      "diapositiva": 68
+    },
+    {
+      "id": "q07",
+      "tipo": "clasificar",
+      "enunciado": "Rayco, de la escuela de surf Ola Sur: «Cada persona del equipo hace los botones a su manera. La web parece un collage.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Diseñar botones, campos y tarjetas como un sistema de diseño",
+          "categoria": "c2"
+        }
+      ],
+      "explicacion": "Es UI. Diseñar los elementos y componentes de forma coherente es el sistema de diseño, una actividad de UI. El frontend los programará después, pero no los diseña.",
+      "diapositiva": 69
+    },
+    {
+      "id": "q08",
+      "tipo": "clasificar",
+      "enunciado": "Iker, del gimnasio Fuerza Norte: «Queremos que todas nuestras pantallas tengan el mismo estilo visual.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Crear la guía de estilo visual de las pantallas",
+          "categoria": "c2"
+        }
+      ],
+      "explicacion": "Es UI. Establecer las líneas del diseño visual y las guías de estilo es una actividad de UI. No es UX: no se investiga a los usuarios, se define cómo se ve todo.",
+      "diapositiva": 69
+    },
+    {
+      "id": "q09",
+      "tipo": "clasificar",
+      "enunciado": "Celia, de la librería La Polilla: «Ya sabemos qué tiene que ir en la portada, pero tal como está colocado no luce nada.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Distribuir y dar estilo a los títulos, fotos y botones de la portada",
+          "categoria": "c2"
+        }
+      ],
+      "explicacion": "Es UI. Su material de trabajo son textos, imágenes, botones y campos: los selecciona, los distribuye y les da estilo. El contenido ya está decidido, así que no es tarea de UX.",
+      "diapositiva": 66
+    },
+    {
+      "id": "q10",
+      "tipo": "clasificar",
+      "enunciado": "Maribel, del teatro Alameda: «El público mayor nos dice que los textos de la web se leen mal.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Ajustar el tamaño de letra y el contraste de los colores",
+          "categoria": "c2"
+        }
+      ],
+      "explicacion": "Es UI. Es de vital importancia que la interfaz sea accesible y usable, y el tamaño de letra y el color son decisiones visuales. El frontend aplicará los cambios, pero no los decide.",
+      "diapositiva": 67
+    },
+    {
+      "id": "q11",
+      "tipo": "clasificar",
+      "enunciado": "Nora, de la clínica veterinaria Patitas: «En el formulario de cita, la gente tarda mucho en poner su dirección.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Decidir si la dirección se escribe o se elige en desplegables",
+          "categoria": "c3"
+        }
+      ],
+      "explicacion": "Es IxD. Elegir entre desplegables o campos de texto es decidir cómo se introduce la información: diseño de interacción. No es UI: no cambia cómo se ve, sino cómo se usa.",
+      "diapositiva": 72
+    },
+    {
+      "id": "q12",
+      "tipo": "clasificar",
+      "enunciado": "Celia, de la librería La Polilla: «Queremos que el buscador ayude a quien no recuerda bien el título del libro.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Decidir si el buscador sugiere cómo completar lo que escribes",
+          "categoria": "c3"
+        }
+      ],
+      "explicacion": "Es IxD. Que el sistema te sugiera cómo completar, o no, es una decisión sobre cómo responde la web a la persona: diseño de interacción. El frontend lo programará después.",
+      "diapositiva": 72
+    },
+    {
+      "id": "q13",
+      "tipo": "clasificar",
+      "enunciado": "Iker, del gimnasio Fuerza Norte: «Las clases se reservan desde el móvil, el ordenador y una pantalla táctil en recepción.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Decidir si se reserva con teclado, ratón, táctil o una combinación",
+          "categoria": "c3"
+        }
+      ],
+      "explicacion": "Es IxD. Decidir si la información se introduce con teclado, ratón, táctil o una combinación es diseño de interacción. No es backend: la reserva se guarda igual, cambia la forma de hacerla.",
+      "diapositiva": 72
+    },
+    {
+      "id": "q14",
+      "tipo": "clasificar",
+      "enunciado": "Bruno, de la pizzería Forno Lento: «Cuando alguien pulsa “Pedir”, no sabe si el pedido ha salido o no.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Definir cómo responde la web al pulsar «Pedir»",
+          "categoria": "c3"
+        }
+      ],
+      "explicacion": "Es IxD. El diseño de interacción define cómo se opera la interfaz y cómo responde la web. No es backend: el servidor ya procesa el pedido; lo que falta es que la persona lo note.",
+      "diapositiva": 70
+    },
+    {
+      "id": "q15",
+      "tipo": "clasificar",
+      "enunciado": "Rayco, de la escuela de surf Ola Sur: «En la galería del móvil, la gente no sabe cómo pasar de una foto a otra.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Definir si se pasa de foto deslizando el dedo o con flechas",
+          "categoria": "c3"
+        }
+      ],
+      "explicacion": "Es IxD. Decidir la forma de operar la interfaz (deslizar o pulsar) es diseño de interacción. No es UI: no se trata del aspecto de la galería, sino de cómo se maneja.",
+      "diapositiva": 70
+    },
+    {
+      "id": "q16",
+      "tipo": "clasificar",
+      "enunciado": "Elvira, de la floristería Margarita: «Ya hemos aprobado el diseño de la nueva portada. Ahora tiene que estar en la web.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Convertir el diseño aprobado de la portada en HTML y CSS",
+          "categoria": "c4"
+        }
+      ],
+      "explicacion": "Es frontend. El frontend no diseña, traduce: convierte en código los diseños de UX/UI. Sus lenguajes son HTML, CSS y JavaScript. No es UI: el diseño ya está hecho.",
+      "diapositiva": 75
+    },
+    {
+      "id": "q17",
+      "tipo": "clasificar",
+      "enunciado": "Iker, del gimnasio Fuerza Norte: «El horario de clases cambia cada semana y está guardado en el servidor.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Mostrar en la página el horario que llega del servidor",
+          "categoria": "c4"
+        }
+      ],
+      "explicacion": "Es frontend. Usa los datos que llegan del servidor para mostrarlos en pantalla. No es backend: el backend guarda el horario y lo entrega; el frontend lo muestra en el navegador.",
+      "diapositiva": 75
+    },
+    {
+      "id": "q18",
+      "tipo": "clasificar",
+      "enunciado": "Nora, de la clínica veterinaria Patitas: «Si alguien olvida el teléfono, queremos avisarle antes de que envíe el formulario.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Programar en el navegador el aviso «Falta el teléfono»",
+          "categoria": "c4"
+        }
+      ],
+      "explicacion": "Es frontend. Las validaciones que se hacen en el navegador, antes de enviar nada al servidor, están en la parte visible del iceberg: el frontend. El backend actúa después, en el servidor.",
+      "diapositiva": 78
+    },
+    {
+      "id": "q19",
+      "tipo": "clasificar",
+      "enunciado": "Telmo, de la app de huertos Brote: «El equipo ya decidió que el menú se abra deslizando el dedo. Falta que funcione.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Programar con JavaScript el menú que se abre al deslizar",
+          "categoria": "c4"
+        }
+      ],
+      "explicacion": "Es frontend. La interacción ya está decidida (IxD); ahora hay que codificarla. Programar en el navegador con JavaScript lo que otros han diseñado es tarea de frontend.",
+      "diapositiva": 75
+    },
+    {
+      "id": "q20",
+      "tipo": "clasificar",
+      "enunciado": "Maribel, del teatro Alameda: «Los diseños para móvil ya están hechos, pero la web se sigue viendo como en el ordenador.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Codificar la versión para móvil a partir de los diseños de UI",
+          "categoria": "c4"
+        }
+      ],
+      "explicacion": "Es frontend. Implementar en código lo que ya ha diseñado la UI es traducir, no diseñar. Se encarga de la parte que muestra el navegador, también en el móvil.",
+      "diapositiva": 75
+    },
+    {
+      "id": "q21",
+      "tipo": "clasificar",
+      "enunciado": "Iker, del gimnasio Fuerza Norte: «Necesitamos guardar los datos de nuestros 800 socios y sus cuotas.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Diseñar la base de datos de socios y cuotas",
+          "categoria": "c5"
+        }
+      ],
+      "explicacion": "Es backend. El diseño y desarrollo de la base de datos es parte lógica del sitio, en el servidor. Que diga «diseñar» no la convierte en tarea de UI: aquí se diseña cómo se guardan los datos.",
+      "diapositiva": 76
+    },
+    {
+      "id": "q22",
+      "tipo": "clasificar",
+      "enunciado": "Maribel, del teatro Alameda: «Dos personas han comprado la misma butaca a la vez.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Programar que el servidor compruebe si la butaca sigue libre",
+          "categoria": "c5"
+        }
+      ],
+      "explicacion": "Es backend. Procesar las peticiones de los clientes y programar la lógica del sitio (comprobar y guardar la compra) ocurre en el servidor. El frontend solo muestra el resultado.",
+      "diapositiva": 76
+    },
+    {
+      "id": "q23",
+      "tipo": "clasificar",
+      "enunciado": "Bruno, de la pizzería Forno Lento: «La web se cae los viernes por la noche, cuando hay más pedidos.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Administrar el servidor para que aguante los picos de pedidos",
+          "categoria": "c5"
+        }
+      ],
+      "explicacion": "Es backend. La administración del servidor y su rendimiento son tareas de backend. No es frontend: el problema no está en lo que muestra el navegador, sino en el servidor.",
+      "diapositiva": 76
+    },
+    {
+      "id": "q24",
+      "tipo": "clasificar",
+      "enunciado": "Telmo, de la app de huertos Brote: «La app y la web tienen que recibir la misma lista de huertos.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Programar la API que entrega la lista de huertos",
+          "categoria": "c5"
+        }
+      ],
+      "explicacion": "Es backend. Programar la API y facilitar los datos que el frontend necesita es trabajo de backend. El frontend consume esa API para mostrar la lista.",
+      "diapositiva": 78
+    },
+    {
+      "id": "q25",
+      "tipo": "clasificar",
+      "enunciado": "Rayco, de la escuela de surf Ola Sur: «Guardamos los datos de pago del alumnado y nos preocupa que los roben.» ¿A quién pasas el encargo?",
+      "categorias": [
+        {
+          "id": "c1",
+          "texto": "Diseño UX"
+        },
+        {
+          "id": "c2",
+          "texto": "Diseño UI"
+        },
+        {
+          "id": "c3",
+          "texto": "Diseño de interacción (IxD)"
+        },
+        {
+          "id": "c4",
+          "texto": "Desarrollo frontend"
+        },
+        {
+          "id": "c5",
+          "texto": "Desarrollo backend"
+        }
+      ],
+      "elementos": [
+        {
+          "id": "e1",
+          "texto": "Proteger en el servidor los datos guardados",
+          "categoria": "c5"
+        }
+      ],
+      "explicacion": "Es backend. La seguridad de los datos y del servidor está en la parte sumergida del iceberg: el backend. No es UX ni UI: no tiene que ver con lo que ve la persona.",
+      "diapositiva": 78
+    }
+  ]
+}

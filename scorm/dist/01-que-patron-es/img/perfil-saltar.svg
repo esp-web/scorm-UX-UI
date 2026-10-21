@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 860 510" width="860" height="510" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Dos pantallas de una app recién instalada</title>
+<rect width="860" height="510" fill="#FFFFFF"/>
+<rect x="150" y="20" width="260" height="470" rx="34" fill="#111015"/>
+<rect x="160" y="30" width="240" height="450" rx="26" fill="#FFFFFF"/>
+<rect x="245.0" y="36" width="70" height="10" rx="5" fill="#111015"/>
+<text x="280.0" y="84" font-size="20" font-weight="bold" text-anchor="middle" fill="#111015">Completa tu perfil</text>
+<circle cx="280.0" cy="144" r="36" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="280.0" y="154" font-size="32" font-weight="bold" text-anchor="middle" fill="#111015">+</text>
+<text x="180" y="214" font-size="14" font-weight="normal" text-anchor="start" fill="#111015">Fecha de nacimiento</text>
+<rect x="180" y="222" width="200" height="32" rx="8" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<text x="180" y="282" font-size="14" font-weight="normal" text-anchor="start" fill="#111015">Tus intereses</text>
+<rect x="180" y="292" width="66" height="28" rx="14.0" fill="#F1F1F4" stroke="#111015" stroke-width="2"/><text x="213.0" y="310.55" font-size="13" font-weight="bold" text-anchor="middle" fill="#111015">Cine</text>
+<rect x="252" y="292" width="66" height="28" rx="14.0" fill="#F1F1F4" stroke="#111015" stroke-width="2"/><text x="285.0" y="310.55" font-size="13" font-weight="bold" text-anchor="middle" fill="#111015">Viajes</text>
+<rect x="324" y="292" width="66" height="28" rx="14.0" fill="#F1F1F4" stroke="#111015" stroke-width="2"/><text x="357.0" y="310.55" font-size="13" font-weight="bold" text-anchor="middle" fill="#111015">Cocina</text>
+<rect x="180" y="354" width="200" height="44" rx="22.0" fill="#111015"/><text x="280.0" y="382.3" font-size="18" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Guardar perfil</text>
+<text x="280.0" y="432" font-size="16" font-weight="bold" text-anchor="middle" fill="#2F5BD8">Saltar por ahora</text>
+<path d="M218.0 437 H342.0" stroke="#2F5BD8" stroke-width="2"/>
+<rect x="450" y="20" width="260" height="470" rx="34" fill="#111015"/>
+<rect x="460" y="30" width="240" height="450" rx="26" fill="#FFFFFF"/>
+<rect x="545.0" y="36" width="70" height="10" rx="5" fill="#111015"/>
+<text x="480" y="84" font-size="20" font-weight="bold" text-anchor="start" fill="#111015">Inicio</text>
+<rect x="474" y="104" width="212" height="64" rx="12" fill="#FFF4D6" stroke="#111015" stroke-width="2"/>
+<text x="486" y="130" font-size="15" font-weight="bold" text-anchor="start" fill="#111015">Tu perfil está al 40 %</text>
+<text x="486" y="154" font-size="14" font-weight="normal" text-anchor="start" fill="#5A5868">Complétalo cuando quieras</text>
+<rect x="474" y="186" width="212" height="80" rx="12" fill="#F1F1F4"/>
+<rect x="486" y="198" width="56" height="56" rx="8" fill="#C4C2D0"/>
+<rect x="554" y="204" width="123.5" height="7" rx="3.5" fill="#C4C2D0"/>
+<rect x="554" y="218" width="91.0" height="7" rx="3.5" fill="#C4C2D0"/>
+<rect x="554" y="232" width="123.5" height="7" rx="3.5" fill="#C4C2D0"/>
+<rect x="474" y="278" width="212" height="80" rx="12" fill="#F1F1F4"/>
+<rect x="486" y="290" width="56" height="56" rx="8" fill="#C4C2D0"/>
+<rect x="554" y="296" width="123.5" height="7" rx="3.5" fill="#C4C2D0"/>
+<rect x="554" y="310" width="91.0" height="7" rx="3.5" fill="#C4C2D0"/>
+<rect x="554" y="324" width="123.5" height="7" rx="3.5" fill="#C4C2D0"/>
+<rect x="474" y="370" width="212" height="80" rx="12" fill="#F1F1F4"/>
+<rect x="486" y="382" width="56" height="56" rx="8" fill="#C4C2D0"/>
+<rect x="554" y="388" width="123.5" height="7" rx="3.5" fill="#C4C2D0"/>
+<rect x="554" y="402" width="91.0" height="7" rx="3.5" fill="#C4C2D0"/>
+<rect x="554" y="416" width="123.5" height="7" rx="3.5" fill="#C4C2D0"/>
+</svg>

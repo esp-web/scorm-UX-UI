@@ -1,0 +1,205 @@
+{
+  "id": "ut2-04-card-sorting",
+  "titulo": "Card sorting",
+  "subtitulo": "UT2 · Diseño y desarrollo web · 3º EAS Diseño Gráfico",
+  "etiqueta": "UT2 · Diseño y desarrollo web",
+  "objetivo": "Repartir los contenidos de una web en las secciones de su menú, como en un card sorting, y comprobar que sabes qué son la organización y el etiquetado.",
+  "minutos": 25,
+  "preguntasPorIntento": 4,
+  "aprobado": 50,
+  "garantizar": ["agrupar"],
+  "instrucciones": {
+    "agrupar": "Pulsa una tarjeta y después la categoría donde la buscarías. En el ordenador también puedes arrastrarla. Cada tarjeta bien colocada suma. Este ejercicio vale más de la mitad de la nota."
+  },
+  "banco": [
+    {
+      "id": "q01", "tipo": "agrupar", "grupo": "sorting", "peso": 4,
+      "enunciado": "Bloque Norte es un rocódromo de barrio que estrena web. Su menú tendrá estas seis secciones. ¿En cuál buscarías cada contenido?",
+      "categorias": [
+        { "id": "c1", "texto": "Tarifas" },
+        { "id": "c2", "texto": "Clases y cursos" },
+        { "id": "c3", "texto": "Instalaciones" },
+        { "id": "c4", "texto": "Agenda" },
+        { "id": "c5", "texto": "Tienda" },
+        { "id": "c6", "texto": "Ayuda" }
+      ],
+      "tarjetas": [
+        { "id": "t1", "texto": "Bono de 10 entradas", "categorias": ["c1"] },
+        { "id": "t2", "texto": "Precio de la entrada de un día", "categorias": ["c1"] },
+        { "id": "t3", "texto": "Descuento para estudiantes", "categorias": ["c1"] },
+        { "id": "t4", "texto": "Cuota mensual sin permanencia", "categorias": ["c1"] },
+        { "id": "t5", "texto": "Iniciación para adultos, los martes", "categorias": ["c2"] },
+        { "id": "t6", "texto": "Escuela de escalada infantil", "categorias": ["c2"] },
+        { "id": "t7", "texto": "Aprende a asegurar con cuerda", "categorias": ["c2"] },
+        { "id": "t8", "texto": "Entrenamiento personal", "categorias": ["c2"] },
+        { "id": "t9", "texto": "Zona de búlder y vías de cuerda", "categorias": ["c3"] },
+        { "id": "t10", "texto": "Vestuarios y duchas", "categorias": ["c3"] },
+        { "id": "t11", "texto": "Horario de apertura", "categorias": ["c3", "c6"] },
+        { "id": "t12", "texto": "Cómo llegar y dónde aparcar", "categorias": ["c3", "c6"] },
+        { "id": "t13", "texto": "Liga interna de búlder", "categorias": ["c4"] },
+        { "id": "t14", "texto": "Noche de cine de montaña", "categorias": ["c4"] },
+        { "id": "t15", "texto": "Salida a la roca en octubre", "categorias": ["c4", "c2"] },
+        { "id": "t16", "texto": "Vías nuevas de este mes", "categorias": ["c4", "c3"] },
+        { "id": "t17", "texto": "Pies de gato", "categorias": ["c5"] },
+        { "id": "t18", "texto": "Magnesio y bolsas", "categorias": ["c5"] },
+        { "id": "t19", "texto": "Camisetas con nuestro logo", "categorias": ["c5"] },
+        { "id": "t20", "texto": "Tarjeta regalo", "categorias": ["c5", "c1"] },
+        { "id": "t21", "texto": "Tu primera visita: qué traer", "categorias": ["c6"] },
+        { "id": "t22", "texto": "Normas de seguridad", "categorias": ["c6", "c3"] },
+        { "id": "t23", "texto": "Autorización para menores", "categorias": ["c6"] },
+        { "id": "t24", "texto": "Contacto y teléfono", "categorias": ["c6"] }
+      ],
+      "explicacion": "Organizar es categorizar: crear grupos de contenidos relacionados para que el usuario encuentre lo que busca sin sobrecarga cognitiva. Aquí, lo que se paga va en Tarifas; lo que se aprende con monitor, en Clases y cursos; el espacio físico, en Instalaciones; lo que tiene fecha, en Agenda; lo que se compra, en Tienda; y las dudas antes de ir, en Ayuda. Algunas tarjetas encajan en dos sitios, como el horario, la tarjeta regalo o la salida a la roca: por eso valen las dos. Esas dudas son la razón de preguntar a los usuarios en vez de suponer.",
+      "diapositiva": 89
+    },
+    {
+      "id": "q02", "tipo": "agrupar", "grupo": "sorting", "peso": 4,
+      "enunciado": "Raíz Viva es una tienda de plantas con taller propio que estrena web. Su menú tendrá estas seis secciones. ¿En cuál buscarías cada contenido?",
+      "categorias": [
+        { "id": "c1", "texto": "Plantas" },
+        { "id": "c2", "texto": "Macetas y accesorios" },
+        { "id": "c3", "texto": "Cuidados" },
+        { "id": "c4", "texto": "Talleres" },
+        { "id": "c5", "texto": "Pedidos y envíos" },
+        { "id": "c6", "texto": "Quiénes somos" }
+      ],
+      "tarjetas": [
+        { "id": "t1", "texto": "Monstera deliciosa", "categorias": ["c1"] },
+        { "id": "t2", "texto": "Cactus y suculentas", "categorias": ["c1"] },
+        { "id": "t3", "texto": "Para rincones con poca luz", "categorias": ["c1", "c3"] },
+        { "id": "t4", "texto": "Seguras si tienes gato", "categorias": ["c1", "c3"] },
+        { "id": "t5", "texto": "Maceta de barro de 20 cm", "categorias": ["c2"] },
+        { "id": "t6", "texto": "Regadera de latón", "categorias": ["c2"] },
+        { "id": "t7", "texto": "Tutor de fibra de coco", "categorias": ["c2"] },
+        { "id": "t8", "texto": "Abono líquido ecológico", "categorias": ["c2", "c3"] },
+        { "id": "t9", "texto": "¿Riego demasiado? Señales", "categorias": ["c3"] },
+        { "id": "t10", "texto": "Calendario de trasplantes", "categorias": ["c3"] },
+        { "id": "t11", "texto": "Plagas comunes y remedios", "categorias": ["c3"] },
+        { "id": "t12", "texto": "Por qué amarillean las hojas", "categorias": ["c3"] },
+        { "id": "t13", "texto": "Monta tu kokedama (sábado, 10 h)", "categorias": ["c4"] },
+        { "id": "t14", "texto": "Terrario en frasco, en grupo", "categorias": ["c4"] },
+        { "id": "t15", "texto": "Esquejes en familia", "categorias": ["c4"] },
+        { "id": "t16", "texto": "Sesiones con plazas en noviembre", "categorias": ["c4"] },
+        { "id": "t17", "texto": "Plazos de entrega", "categorias": ["c5"] },
+        { "id": "t18", "texto": "¿Dónde está mi paquete?", "categorias": ["c5"] },
+        { "id": "t19", "texto": "Devolver una planta dañada", "categorias": ["c5"] },
+        { "id": "t20", "texto": "Enviar una planta de regalo", "categorias": ["c5", "c1"] },
+        { "id": "t21", "texto": "Nuestra historia desde 1998", "categorias": ["c6"] },
+        { "id": "t22", "texto": "El equipo", "categorias": ["c6"] },
+        { "id": "t23", "texto": "Trabaja con nosotras", "categorias": ["c6"] },
+        { "id": "t24", "texto": "Visita la tienda física", "categorias": ["c6"] }
+      ],
+      "explicacion": "Organizar es categorizar: crear grupos de contenidos relacionados para que el usuario encuentre lo que busca sin sobrecarga cognitiva. Aquí, lo que está vivo y se compra va en Plantas; lo que acompaña a la planta, en Macetas y accesorios; cómo mantenerla, en Cuidados; lo que se aprende en grupo y con fecha, en Talleres; lo que pasa después de comprar, en Pedidos y envíos; y la empresa, en Quiénes somos. Algunas tarjetas encajan en dos sitios, como las plantas para poca luz o el abono: por eso valen las dos. La organización debe seguir el modelo mental de los usuarios, no el del almacén.",
+      "diapositiva": 83
+    },
+    {
+      "id": "q03", "tipo": "unica",
+      "enunciado": "Aún no hay web. Quieres saber cómo agruparían y cómo llamarían los usuarios las secciones del menú. ¿Qué técnica del temario encaja mejor?",
+      "opciones": [
+        { "id": "a", "texto": "Card sorting: los usuarios reparten tarjetas de contenido en grupos.", "correcta": true },
+        { "id": "b", "texto": "Test A/B: se comparan dos versiones publicadas con datos de uso." },
+        { "id": "c", "texto": "Análisis heurístico: un experto evalúa la interfaz con unas reglas." },
+        { "id": "d", "texto": "Five second test: se enseña un diseño cinco segundos y se pregunta qué recuerdan." }
+      ],
+      "explicacion": "El card sorting es una de las investigaciones con usuarios que hace la diseñadora UX. Responde a la pregunta del etiquetado: ¿qué prueba UX es la más acorde? Ver cómo agrupan y nombran las tarjetas muestra su modelo mental. El test A/B es análisis de datos y necesita dos versiones ya publicadas. El análisis heurístico es una evaluación de un experto, sin usuarios. El five second test necesita un diseño que enseñar.",
+      "diapositiva": 17
+    },
+    {
+      "id": "q04", "tipo": "vf", "grupo": "etiquetado",
+      "enunciado": "Basta con la buena voluntad del equipo para elegir bien las etiquetas del menú.",
+      "correcta": false,
+      "explicacion": "Falso. El etiquetado define la terminología del sistema, y la buena voluntad no basta. Hay que hacer un test UX con usuarios para saber cómo lo llamarían, cómo lo buscarían y si entienden los términos.",
+      "diapositiva": 94
+    },
+    {
+      "id": "q05", "tipo": "unica", "grupo": "etiquetado",
+      "enunciado": "¿Qué hacemos cuando trabajamos el etiquetado de una web?",
+      "opciones": [
+        { "id": "a", "texto": "Elegir las palabras de títulos, encabezados, secciones, productos y transacciones.", "correcta": true },
+        { "id": "b", "texto": "Generar agrupaciones de contenidos relacionados." },
+        { "id": "c", "texto": "Definir el modelo de navegación y las herramientas de búsqueda." },
+        { "id": "d", "texto": "Poner a cada producto una pegatina con su precio." }
+      ],
+      "explicacion": "Etiquetar es definir la terminología que usará el sistema: las palabras de títulos, encabezados, nombres de secciones, palabras clave, productos y transacciones. Agrupar contenidos es organización. Definir la navegación y la búsqueda es estructura.",
+      "diapositiva": 94
+    },
+    {
+      "id": "q06", "tipo": "unica",
+      "enunciado": "Siete grandes tiendas llaman de forma distinta a la misma sección: «Devoluciones», «Cambios y devoluciones», «Devoluciones y garantías», «Quiero devolver / cambiar un producto»… ¿Qué nos enseña?",
+      "opciones": [
+        { "id": "a", "texto": "Que no hay una etiqueta obvia: hay que comprobar con usuarios qué palabras entienden y buscan.", "correcta": true },
+        { "id": "b", "texto": "Que conviene copiar la etiqueta de la tienda más conocida del sector." },
+        { "id": "c", "texto": "Que la etiqueta da igual, porque los usuarios siempre usan el buscador." },
+        { "id": "d", "texto": "Que la etiqueta más larga es siempre la más clara para todos." }
+      ],
+      "explicacion": "Para lo mismo, cada empresa eligió palabras distintas (diapositiva 96). Ninguna es la correcta para todo el mundo. Por eso el etiquetado se decide con un test UX: cómo lo llamarían tus usuarios y cómo lo buscarían. Copiar a otra tienda no garantiza que tu público lo entienda.",
+      "diapositiva": 96
+    },
+    {
+      "id": "q07", "tipo": "multiple",
+      "enunciado": "¿Qué busca la organización de la información en una web?",
+      "opciones": [
+        { "id": "a", "texto": "Generar agrupaciones de contenidos relacionados.", "correcta": true },
+        { "id": "b", "texto": "Evitar la sobrecarga cognitiva del usuario.", "correcta": true },
+        { "id": "c", "texto": "Que el usuario no cierre la web con el pedido sin terminar.", "correcta": true },
+        { "id": "d", "texto": "Elegir las palabras exactas de cada botón." },
+        { "id": "e", "texto": "Escoger la paleta de colores del menú." },
+        { "id": "f", "texto": "Programar el buscador de la tienda." }
+      ],
+      "explicacion": "Organizar es categorizar la información generando agrupaciones de contenidos relacionados. Así el usuario encuentra lo que le interesa sin sobrecarga cognitiva y, en el fondo, no abandona la web con el pedido a medias. Elegir las palabras es etiquetado; los colores son interfaz (UI); y el buscador forma parte de la estructura.",
+      "diapositiva": 89
+    },
+    {
+      "id": "q08", "tipo": "clasificar",
+      "enunciado": "Estás preparando el menú de Raíz Viva. ¿A qué foco de la arquitectura de la información pertenece cada decisión?",
+      "instruccion": "Elige un foco para cada decisión. Cada decisión bien clasificada suma.",
+      "categorias": [
+        { "id": "o", "texto": "Organización" },
+        { "id": "e", "texto": "Etiquetado" },
+        { "id": "s", "texto": "Estructura" }
+      ],
+      "elementos": [
+        { "id": "e1", "texto": "Juntar «Talleres» y «Cursos» en una sola sección.", "categoria": "o" },
+        { "id": "e2", "texto": "Agrupar las plantas por el tipo de luz que necesitan.", "categoria": "o" },
+        { "id": "e3", "texto": "Decidir si el menú dirá «Ayuda» o «Preguntas frecuentes».", "categoria": "e" },
+        { "id": "e4", "texto": "Escribir el texto del botón que lleva al carrito.", "categoria": "e" },
+        { "id": "e5", "texto": "Decidir si la web tendrá buscador.", "categoria": "s" },
+        { "id": "e6", "texto": "Definir cómo se navega de una sección a otra.", "categoria": "s" }
+      ],
+      "explicacion": "Los tres focos son organización (categorizar: qué contenidos van juntos), etiquetado (elegir las palabras de secciones, botones y títulos) y estructura (definir el modelo de navegación y las herramientas de búsqueda).",
+      "diapositiva": 84
+    },
+    {
+      "id": "q09", "tipo": "unica",
+      "enunciado": "Una buena arquitectura de la información organiza el contenido de forma clara y lógica según…",
+      "opciones": [
+        { "id": "a", "texto": "el modelo mental de los usuarios.", "correcta": true },
+        { "id": "b", "texto": "el organigrama de los departamentos de la empresa." },
+        { "id": "c", "texto": "el orden en que el equipo creó cada página." },
+        { "id": "d", "texto": "lo que resulte más cómodo de programar." }
+      ],
+      "explicacion": "La arquitectura de la información busca organizar el contenido de forma clara y lógica según el modelo mental de los usuarios, para facilitarles al máximo el acceso. Lo que es lógico para la empresa o para el equipo no tiene por qué serlo para quien visita la web.",
+      "diapositiva": 83
+    },
+    {
+      "id": "q10", "tipo": "unica",
+      "enunciado": "En un card sorting de Raíz Viva, 9 de cada 12 personas ponen «Seguras si tienes gato» en «Cuidados» y no en «Plantas». ¿Qué decides?",
+      "opciones": [
+        { "id": "a", "texto": "Ponerla donde la buscan los usuarios, porque el menú debe seguir su modelo mental.", "correcta": true },
+        { "id": "b", "texto": "Dejarla en «Plantas», porque es un producto y así figura en el almacén." },
+        { "id": "c", "texto": "Repetir la prueba con otras personas hasta que salga lo que esperaba el equipo." },
+        { "id": "d", "texto": "Quitar ese contenido del menú, porque ha creado dudas." }
+      ],
+      "explicacion": "La organización debe seguir el modelo mental de los usuarios, no la lógica interna de la empresa. Si la mayoría la busca en «Cuidados», ahí la encontrarán sin esfuerzo. Preguntar es mejor que suponer: repetir la prueba hasta que salga lo que queríamos anula la investigación.",
+      "diapositiva": 83
+    }
+  ],
+  "diapositivas": {
+    "17": "Actividades de un diseñador UX: investigaciones (test con usuarios, card sorting, tree test, five second test, personas, focus group), evaluaciones (análisis heurísticos), análisis de datos (test A/B), arquitectura de información y wireframes.",
+    "83": "Una buena arquitectura de la información busca organizar el contenido de forma clara y lógica, según el modelo mental de los usuarios, para facilitar al máximo el acceso a ella.",
+    "84": "La arquitectura de la información tiene 3 focos principales: organización, etiquetado y estructura.",
+    "89": "Organización. Qué hacemos: categorizar la información. Cómo: generando agrupaciones de contenidos relacionados. Para qué: para ayudar a los usuarios a encontrar, procesar y comprender lo que les interesa. Lo que pretendemos: evitar la sobrecarga cognitiva; y, de verdad, que no cierre la web con el pedido sin terminar.",
+    "94": "Etiquetado. Qué hacemos: definir la terminología que utilizará el sistema. Cómo: eligiendo las palabras para títulos, encabezados, nombres de secciones, palabras clave, productos y transacciones. La buena voluntad no basta: hay que hacer un test UX a los usuarios para conocer cómo lo llamarían, cómo lo buscarían y si entienden la terminología.",
+    "96": "Ejemplo de etiquetado: la sección de devoluciones se llama distinto en cada empresa. Zara: Cambios y devoluciones. Mango: Devoluciones, cambios y reembolsos. El Corte Inglés: Devolución y reembolso. MediaMarkt: Devoluciones. PcComponentes: Devoluciones y garantías. Mercadona: Quiero devolver / cambiar un producto. pcacierto.com: Devoluciones y reclamaciones."
+  }
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ut2-05-tree-test" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="org-ut2-05-tree-test">
+    <organization identifier="org-ut2-05-tree-test">
+      <title>Tree test</title>
+      <item identifier="item-ut2-05-tree-test" identifierref="res-ut2-05-tree-test" isvisible="true">
+        <title>Tree test</title>
+        <adlcp:masteryscore>50</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="res-ut2-05-tree-test" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="actividad.js"/>
+      <file href="estilos.css"/>
+      <file href="fonts/OFL-LICENSE-Anton.txt"/>
+      <file href="fonts/OFL-LICENSE-Atkinson.txt"/>
+      <file href="fonts/anton-latin-400-normal.woff2"/>
+      <file href="fonts/atkinson-hyperlegible-latin-400-normal.woff2"/>
+      <file href="fonts/atkinson-hyperlegible-latin-700-normal.woff2"/>
+      <file href="img/diapositiva-017.jpg"/>
+      <file href="img/diapositiva-083.jpg"/>
+      <file href="img/diapositiva-094.jpg"/>
+      <file href="img/diapositiva-096.jpg"/>
+      <file href="img/diapositiva-102.jpg"/>
+      <file href="img/diapositiva-103.jpg"/>
+      <file href="img/diapositiva-121.jpg"/>
+      <file href="img/diapositiva-142.jpg"/>
+      <file href="index.html"/>
+      <file href="motor.js"/>
+      <file href="scorm12.js"/>
+    </resource>
+  </resources>
+</manifest>

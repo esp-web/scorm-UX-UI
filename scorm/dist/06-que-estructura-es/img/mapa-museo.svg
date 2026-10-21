@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Mapa de la web del Museo del Barro</title>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#111015"/></marker></defs>
+<rect width="800" height="440" fill="#FFFFFF"/>
+<path d="M400,220.0 L430,50" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<text x="415.0" y="139.0" text-anchor="middle" font-size="13" fill="#5A5868" font-style="italic" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">muestra</text>
+<path d="M400,220.0 L690,320" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M400,220.0 L110,300" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M430,50 L140,80" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<text x="285.0" y="69.0" text-anchor="middle" font-size="13" fill="#5A5868" font-style="italic" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">hechas con</text>
+<path d="M430,50 L680,110" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<text x="555.0" y="84.0" text-anchor="middle" font-size="13" fill="#5A5868" font-style="italic" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">creadas por</text>
+<path d="M680,110 L690,320" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<text x="685.0" y="219.0" text-anchor="middle" font-size="13" fill="#5A5868" font-style="italic" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">imparten</text>
+<path d="M140,80 L110,300" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M400,220.0 L380,395" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M380,395 L680,110" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M690,320 L380,395" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M110,300 L380,395" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<text x="245.0" y="351.5" text-anchor="middle" font-size="13" fill="#5A5868" font-style="italic" stroke="#FFFFFF" stroke-width="5" paint-order="stroke">usados en</text>
+<rect x="65.0" y="57.0" width="150" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="140" y="86.0" text-anchor="middle" font-size="18">Técnicas</text>
+<rect x="355.0" y="27.0" width="150" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="430" y="56.0" text-anchor="middle" font-size="18">Piezas</text>
+<rect x="605.0" y="87.0" width="150" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="680" y="116.0" text-anchor="middle" font-size="18">Autoras</text>
+<rect x="615.0" y="297.0" width="150" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="690" y="326.0" text-anchor="middle" font-size="18">Talleres</text>
+<rect x="305.0" y="372.0" width="150" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="380" y="401.0" text-anchor="middle" font-size="18">Épocas</text>
+<rect x="35.0" y="277.0" width="150" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="110" y="306.0" text-anchor="middle" font-size="18">Materiales</text>
+<rect x="320.0" y="197.0" width="160" height="46" rx="10" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<text x="400" y="226.0" text-anchor="middle" font-size="18">Exposición</text>
+</svg>

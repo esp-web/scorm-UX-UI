@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Ficha del Museo de la Sal</title>
+<rect width="600" height="340" fill="#FFFFFF"/>
+<rect x="0" y="0" width="600" height="36" fill="#F1F1F4"/>
+<circle cx="20" cy="18" r="6" fill="#E84F49"/><circle cx="40" cy="18" r="6" fill="#F6C956"/><circle cx="60" cy="18" r="6" fill="#C6D675"/>
+<rect x="90" y="8" width="420" height="20" rx="10" fill="#FFFFFF" stroke="#111015" stroke-width="1"/>
+<text x="106" y="23" font-size="13" fill="#5A5868">museodelasal.es/visita</text>
+<line x1="0" y1="36" x2="600" y2="36" stroke="#111015" stroke-width="2"/><text x="30" y="80" font-size="26" font-weight="bold" fill="#D9D8DE">Horario de visitas</text><text font-size="15" fill="#E2E1E6"><tspan x="30" y="120">De martes a domingo, de 10:00 a 14:00 y de 17:00 a 20:00.</tspan><tspan x="30" y="146">Los lunes el museo permanece cerrado.</tspan><tspan x="30" y="172">La entrada es gratuita el primer domingo de cada mes.</tspan><tspan x="30" y="198">Grupos de más de 15 personas: reserva previa.</tspan></text><rect x="30" y="236" width="180" height="48" rx="24" fill="#F4F3F6"/><text x="120" y="266" font-size="16" text-anchor="middle" fill="#FFFFFF">Reservar visita</text>
+</svg>

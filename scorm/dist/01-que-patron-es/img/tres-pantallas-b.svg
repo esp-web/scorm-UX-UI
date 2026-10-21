@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 560 1132" width="560" height="1132" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Tres pantallas de apps distintas, numeradas del 1 al 3</title>
+<rect width="560" height="1132" fill="#FFFFFF"/>
+<rect x="10" y="10" width="540" height="354" rx="16" fill="#FFFFFF" stroke="#C4C2D0" stroke-width="2"/>
+<rect x="12" y="12" width="536" height="70" rx="14" fill="#F1F1F4"/>
+<g transform="translate(0,84)">
+<rect x="24" y="0" width="512" height="270" rx="14" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<text x="280" y="44" font-size="26" font-weight="bold" text-anchor="middle" fill="#111015">Crea tu cuenta</text>
+<text x="56" y="86" font-size="19" font-weight="normal" text-anchor="start" fill="#111015">Correo electrónico</text>
+<rect x="56" y="96" width="448" height="46" rx="8" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<text x="280" y="180" font-size="20" font-weight="normal" text-anchor="middle" fill="#5A5868">Nombre, foto y gustos:</text>
+<text x="280" y="206" font-size="20" font-weight="normal" text-anchor="middle" fill="#5A5868">cuando quieras.</text>
+<rect x="180" y="220" width="200" height="40" rx="20.0" fill="#111015"/><text x="280.0" y="246.65" font-size="19" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Continuar</text>
+</g>
+<rect x="10" y="384" width="540" height="344" rx="16" fill="#FFFFFF" stroke="#C4C2D0" stroke-width="2"/>
+<rect x="12" y="386" width="536" height="70" rx="14" fill="#F1F1F4"/>
+<g transform="translate(0,458)">
+<rect x="24" y="0" width="512" height="260" rx="14" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<text x="48" y="42" font-size="26" font-weight="bold" text-anchor="start" fill="#111015">Papelera</text>
+<rect x="44" y="64" width="472" height="76" rx="10" fill="#F1F1F4"/>
+<rect x="58" y="82" width="28" height="38" rx="3" fill="#C4C2D0"/>
+<text x="100" y="98" font-size="20" font-weight="bold" text-anchor="start" fill="#111015">Presupuesto.pdf</text>
+<text x="100" y="124" font-size="18" font-weight="normal" text-anchor="start" fill="#5A5868">Hace 2 días</text>
+<rect x="372" y="82" width="130" height="40" rx="20.0" fill="#FFFFFF" stroke="#111015" stroke-width="2"/><text x="437.0" y="108.3" font-size="18" font-weight="bold" text-anchor="middle" fill="#111015">Restaurar</text>
+<rect x="44" y="154" width="472" height="76" rx="10" fill="#F1F1F4"/>
+<rect x="58" y="172" width="28" height="38" rx="3" fill="#C4C2D0"/>
+<text x="100" y="188" font-size="20" font-weight="bold" text-anchor="start" fill="#111015">Logo-v3.png</text>
+<text x="100" y="214" font-size="18" font-weight="normal" text-anchor="start" fill="#5A5868">Hace 5 días</text>
+<rect x="372" y="172" width="130" height="40" rx="20.0" fill="#FFFFFF" stroke="#111015" stroke-width="2"/><text x="437.0" y="198.3" font-size="18" font-weight="bold" text-anchor="middle" fill="#111015">Restaurar</text>
+</g>
+<rect x="10" y="748" width="540" height="364" rx="16" fill="#FFFFFF" stroke="#C4C2D0" stroke-width="2"/>
+<rect x="12" y="750" width="536" height="70" rx="14" fill="#F1F1F4"/>
+<g transform="translate(0,822)">
+<rect x="24" y="0" width="512" height="280" rx="12" fill="#F1F1F4"/>
+<text x="48" y="40" font-size="24" font-weight="bold" text-anchor="start" fill="#111015">Pizzería Bella Rosa</text>
+<text x="48" y="70" font-size="19" font-weight="normal" text-anchor="start" fill="#5A5868">Tu último pedido (viernes)</text>
+<rect x="48" y="86" width="464" height="108" rx="10" fill="#FFFFFF" stroke="#C4C2D0" stroke-width="2"/>
+<text x="66" y="118" font-size="20" font-weight="normal" text-anchor="start" fill="#111015">1 × Pizza margarita</text>
+<text x="66" y="148" font-size="20" font-weight="normal" text-anchor="start" fill="#111015">1 × Ensalada de la casa</text>
+<text x="66" y="178" font-size="20" font-weight="normal" text-anchor="start" fill="#111015">2 × Agua</text>
+<rect x="48" y="210" width="464" height="56" rx="28.0" fill="#111015"/><text x="280.0" y="245.7" font-size="22" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Repetir pedido</text>
+</g>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Cuatro esquemas de navegación numerados del 1 al 4</title>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#111015"/></marker></defs>
+<rect width="800" height="640" fill="#FFFFFF"/>
+<rect x="13" y="13" width="380" height="300" rx="16" fill="none" stroke="#C4C2D0" stroke-width="2"/>
+<rect x="180.0" y="116.0" width="46" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<path d="M203,140 L203,163 L113,163 L113,186" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="90.0" y="186.0" width="46" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<path d="M203,140 L203,163 L203,163 L203,186" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="180.0" y="186.0" width="46" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<path d="M203,140 L203,163 L293,163 L293,186" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="270.0" y="186.0" width="46" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<path d="M113,210 L113,228 L88,228 L88,246" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="65.0" y="246.0" width="46" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<path d="M113,210 L113,228 L138,228 L138,246" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="115.0" y="246.0" width="46" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="407" y="13" width="380" height="300" rx="16" fill="none" stroke="#C4C2D0" stroke-width="2"/>
+<path d="M485,198 L502.0,198 L502.0,143 L519,143" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M485,198 L502.0,198 L502.0,253 L519,253" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M565,143 L584.5,143 L584.5,198 L604,198" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M565,253 L584.5,253 L584.5,198 L604,198" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M650,198 L667.0,198 L667.0,143 L684,143" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M650,198 L667.0,198 L667.0,253 L684,253" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M730,143 L734.5,143 L734.5,198 L739,198" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M730,253 L734.5,253 L734.5,198 L739,198" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="442.0" y="186.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="522.0" y="131.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="522.0" y="241.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="607.0" y="186.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="687.0" y="131.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="687.0" y="241.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="742.0" y="186.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="13" y="327" width="380" height="300" rx="16" fill="none" stroke="#C4C2D0" stroke-width="2"/>
+<path d="M106,492 L150,492" fill="none" stroke="#111015" stroke-width="2" marker-start="url(#f)" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M196,492 L240,492" fill="none" stroke="#111015" stroke-width="2" marker-start="url(#f)" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M286,492 L330,492" fill="none" stroke="#111015" stroke-width="2" marker-start="url(#f)" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="60.0" y="480.0" width="46" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="150.0" y="480.0" width="46" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="240.0" y="480.0" width="46" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="330.0" y="480.0" width="46" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="407" y="327" width="380" height="300" rx="16" fill="none" stroke="#C4C2D0" stroke-width="2"/>
+<path d="M607,512 L497,452" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M607,512 L707,442" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M607,512 L747,552" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M607,512 L647,597" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M607,512 L497,577" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M497,452 L582,432" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M582,432 L707,442" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M707,442 L747,552" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M647,597 L497,577" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M497,577 L497,452" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<path d="M747,552 L647,597" fill="none" stroke="#111015" stroke-width="2" stroke-dasharray="0"/>
+<rect x="581.0" y="497.0" width="52" height="30" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="477.0" y="440.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="687.0" y="430.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="727.0" y="540.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="627.0" y="585.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="477.0" y="565.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<rect x="562.0" y="420.0" width="40" height="24" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+</svg>

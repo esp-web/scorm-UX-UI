@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ut2-01-que-patron-es" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="org-ut2-01-que-patron-es">
+    <organization identifier="org-ut2-01-que-patron-es">
+      <title>¿Qué patrón es?</title>
+      <item identifier="item-ut2-01-que-patron-es" identifierref="res-ut2-01-que-patron-es" isvisible="true">
+        <title>¿Qué patrón es?</title>
+        <adlcp:masteryscore>50</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="res-ut2-01-que-patron-es" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="actividad.js"/>
+      <file href="estilos.css"/>
+      <file href="fonts/OFL-LICENSE-Anton.txt"/>
+      <file href="fonts/OFL-LICENSE-Atkinson.txt"/>
+      <file href="fonts/anton-latin-400-normal.woff2"/>
+      <file href="fonts/atkinson-hyperlegible-latin-400-normal.woff2"/>
+      <file href="fonts/atkinson-hyperlegible-latin-700-normal.woff2"/>
+      <file href="img/ajustes-lote.svg"/>
+      <file href="img/app-tiempo.svg"/>
+      <file href="img/aviso-calendario.svg"/>
+      <file href="img/barras-herramientas.svg"/>
+      <file href="img/buscar-reemplazar.svg"/>
+      <file href="img/captura-d029-01.jpg"/>
+      <file href="img/captura-d030-01.jpg"/>
+      <file href="img/captura-d033-01.jpg"/>
+      <file href="img/captura-d035-01.jpg"/>
+      <file href="img/captura-d037-01.jpg"/>
+      <file href="img/captura-d038-01.jpg"/>
+      <file href="img/captura-d038-03.jpg"/>
+      <file href="img/captura-d042-02.jpg"/>
+      <file href="img/carrito-pendiente.svg"/>
+      <file href="img/correo-deshacer.svg"/>
+      <file href="img/diapositiva-029.jpg"/>
+      <file href="img/diapositiva-030.jpg"/>
+      <file href="img/diapositiva-031.jpg"/>
+      <file href="img/diapositiva-033.jpg"/>
+      <file href="img/diapositiva-034.jpg"/>
+      <file href="img/diapositiva-035.jpg"/>
+      <file href="img/diapositiva-036.jpg"/>
+      <file href="img/diapositiva-037.jpg"/>
+      <file href="img/diapositiva-038.jpg"/>
+      <file href="img/diapositiva-039.jpg"/>
+      <file href="img/diapositiva-041.jpg"/>
+      <file href="img/diapositiva-043.jpg"/>
+      <file href="img/diapositiva-044.jpg"/>
+      <file href="img/diapositiva-045.jpg"/>
+      <file href="img/editor-bloques.svg"/>
+      <file href="img/formulario-teclado.svg"/>
+      <file href="img/landing-reserva.svg"/>
+      <file href="img/opiniones-producto.svg"/>
+      <file href="img/perfil-saltar.svg"/>
+      <file href="img/tres-capturas.svg"/>
+      <file href="img/tres-pantallas-a.svg"/>
+      <file href="img/tres-pantallas-b.svg"/>
+      <file href="img/video-sin-cuenta.svg"/>
+      <file href="index.html"/>
+      <file href="motor.js"/>
+      <file href="scorm12.js"/>
+    </resource>
+  </resources>
+</manifest>

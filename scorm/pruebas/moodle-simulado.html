@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moodle simulado</title>
+  <style>
+    :root { --tinta: #111015; --papel: #F1F1F4; --lavanda: #AAA6F7; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; background: var(--tinta); color: var(--papel); display: flex; height: 100vh; }
+    iframe { flex: 1; border: 0; background: #fff; min-width: 0; }
+    aside { width: 320px; padding: 16px; overflow: auto; font-size: 14px; border-left: 2px solid var(--lavanda); }
+    aside h1 { font-size: 16px; margin: 0 0 8px; }
+    aside dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 8px; margin: 0 0 12px; }
+    aside dt { color: var(--lavanda); }
+    aside dd { margin: 0; word-break: break-word; }
+    aside table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    aside td, aside th { border-bottom: 1px solid #333; padding: 4px; text-align: left; vertical-align: top; }
+    button { font: inherit; padding: 8px 12px; border-radius: 999px; border: 2px solid var(--papel); background: transparent; color: var(--papel); cursor: pointer; margin: 4px 0; }
+    @media (max-width: 900px) { aside { display: none; } }
+  </style>
+</head>
+<body>
+<script>
+  /* API SCORM 1.2 simulada: guarda lo que enviaría la actividad a Moodle (en este navegador). */
+  var params = new URLSearchParams(location.search);
+  var actividad = params.get('act') || '00-experiencia-usuario';
+  var CLAVE = 'moodle-simulado:' + actividad;
+  var data = JSON.parse(localStorage.getItem(CLAVE) || '{}');
+  window.lmsLog = [];
+  function persistir() { localStorage.setItem(CLAVE, JSON.stringify(data)); pintar(); }
+  window.API = {
+    LMSInitialize: function () { return 'true'; },
+    LMSGetValue: function (k) {
+      if (k in data) return data[k];
+      return ({ 'cmi.core.lesson_status': 'not attempted', 'cmi.core.lesson_mode': 'normal', 'cmi.core.entry': 'ab-initio' })[k] || '';
+    },
+    LMSSetValue: function (k, v) { data[k] = String(v); window.lmsLog.push([k, v]); return 'true'; },
+    LMSCommit: function () { persistir(); return 'true'; },
+    LMSFinish: function () { persistir(); return 'true'; },
+    LMSGetLastError: function () { return '0'; },
+    LMSGetErrorString: function () { return ''; },
+    LMSGetDiagnostic: function () { return ''; }
+  };
+  window.lmsData = function () { return data; };
+  function reiniciar() { localStorage.removeItem(CLAVE); location.reload(); }
+  function pintar() {
+    var panel = document.getElementById('panel');
+    if (!panel) return;
+    var filas = '';
+    for (var n = 0; ('cmi.interactions.' + n + '.id') in data; n++) {
+      var b = 'cmi.interactions.' + n + '.';
+      filas += '<tr><td>' + data[b + 'id'] + '</td><td>' + (data[b + 'student_response'] || '—') + '</td><td>' + data[b + 'correct_responses.0.pattern'] + '</td><td>' + data[b + 'result'] + '</td></tr>';
+    }
+    var sd = data['cmi.suspend_data'] || '';
+    panel.innerHTML =
+      '<dl><dt>Actividad</dt><dd>' + actividad + '</dd>' +
+      '<dt>Estado</dt><dd>' + (data['cmi.core.lesson_status'] || 'not attempted') + '</dd>' +
+      '<dt>Nota</dt><dd>' + (data['cmi.core.score.raw'] || '—') + ' / 100</dd>' +
+      '<dt>Tiempo</dt><dd>' + (data['cmi.core.session_time'] || '—') + '</dd>' +
+      '<dt>Progreso</dt><dd>' + sd.length + ' / 4096 caracteres</dd></dl>' +
+      (filas ? '<table><tr><th>Pregunta</th><th>Respuesta</th><th>Correcta</th><th>Resultado</th></tr>' + filas + '</table>' : '<p>Aún no hay respuestas enviadas (se envían al entregar).</p>');
+  }
+  document.write('<iframe id="sco" title="Actividad" src="../dist/' + encodeURIComponent(actividad) + '/index.html"></iframe>');
+</script>
+<aside>
+  <h1>Moodle simulado</h1>
+  <p>Lo que la actividad enviaría a Moodle.</p>
+  <button type="button" onclick="reiniciar()">Reiniciar intento</button>
+  <div id="panel"></div>
+</aside>
+<script>pintar();</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+__pycache__/
+scorm/pruebas/node_modules/
+scorm/pruebas/capturas/
+.DS_Store

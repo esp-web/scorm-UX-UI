@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ut2-03-primer-dia-agencia" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="org-ut2-03-primer-dia-agencia">
+    <organization identifier="org-ut2-03-primer-dia-agencia">
+      <title>Primer día en la agencia</title>
+      <item identifier="item-ut2-03-primer-dia-agencia" identifierref="res-ut2-03-primer-dia-agencia" isvisible="true">
+        <title>Primer día en la agencia</title>
+        <adlcp:masteryscore>50</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="res-ut2-03-primer-dia-agencia" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="actividad.js"/>
+      <file href="estilos.css"/>
+      <file href="fonts/OFL-LICENSE-Anton.txt"/>
+      <file href="fonts/OFL-LICENSE-Atkinson.txt"/>
+      <file href="fonts/anton-latin-400-normal.woff2"/>
+      <file href="fonts/atkinson-hyperlegible-latin-400-normal.woff2"/>
+      <file href="fonts/atkinson-hyperlegible-latin-700-normal.woff2"/>
+      <file href="img/diapositiva-011.jpg"/>
+      <file href="img/diapositiva-017.jpg"/>
+      <file href="img/diapositiva-066.jpg"/>
+      <file href="img/diapositiva-067.jpg"/>
+      <file href="img/diapositiva-068.jpg"/>
+      <file href="img/diapositiva-069.jpg"/>
+      <file href="img/diapositiva-070.jpg"/>
+      <file href="img/diapositiva-072.jpg"/>
+      <file href="img/diapositiva-075.jpg"/>
+      <file href="img/diapositiva-076.jpg"/>
+      <file href="img/diapositiva-078.jpg"/>
+      <file href="index.html"/>
+      <file href="motor.js"/>
+      <file href="scorm12.js"/>
+    </resource>
+  </resources>
+</manifest>

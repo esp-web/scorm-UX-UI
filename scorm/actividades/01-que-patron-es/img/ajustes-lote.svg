@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 480" width="800" height="480" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Programa de edición de fotos con una cuadrícula de miniaturas</title>
+<rect width="800" height="480" fill="#FFFFFF"/>
+<rect x="20" y="20" width="760" height="440" rx="12" fill="#FFFFFF" stroke="#111015" stroke-width="2"/>
+<path d="M20 60 H780" stroke="#111015" stroke-width="2"/>
+<circle cx="40" cy="40" r="6" fill="#C4C2D0"/>
+<circle cx="60" cy="40" r="6" fill="#C4C2D0"/>
+<circle cx="80" cy="40" r="6" fill="#C4C2D0"/>
+<rect x="110" y="29" width="580" height="22" rx="11" fill="#F1F1F4"/>
+<text x="400.0" y="46" font-size="14" font-weight="normal" text-anchor="middle" fill="#5A5868">Fotos de la boda · 24 fotos</text>
+<rect x="50" y="76" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="100" y="94" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="120" y="76" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="170" y="94" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="190" y="76" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="240" y="94" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="260" y="76" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="310" y="94" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="330" y="76" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="380" y="94" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="400" y="76" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="450" y="94" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="470" y="76" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="520" y="94" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="540" y="76" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="590" y="94" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="50" y="146" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="100" y="164" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="120" y="146" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="170" y="164" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="190" y="146" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="240" y="164" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="260" y="146" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="310" y="164" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="330" y="146" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="380" y="164" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="400" y="146" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="450" y="164" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="470" y="146" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="520" y="164" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="540" y="146" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="590" y="164" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="50" y="216" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="100" y="234" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="120" y="216" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="170" y="234" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="190" y="216" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="240" y="234" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="260" y="216" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="310" y="234" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="330" y="216" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="380" y="234" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="400" y="216" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="450" y="234" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="470" y="216" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="520" y="234" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="540" y="216" width="60" height="60" rx="6" fill="#C4C2D0" stroke="#2F5BD8" stroke-width="3"/>
+<text x="590" y="234" font-size="14" font-weight="bold" text-anchor="middle" fill="#2F5BD8">✓</text>
+<rect x="630" y="76" width="130" height="200" rx="10" fill="#F1F1F4"/>
+<text x="645" y="102" font-size="15" font-weight="bold" text-anchor="start" fill="#111015">Ajustes</text>
+<text x="645" y="132" font-size="13" font-weight="normal" text-anchor="start" fill="#5A5868">Luz</text>
+<rect x="645" y="140" width="100" height="6" rx="3" fill="#C4C2D0"/>
+<circle cx="675" cy="143" r="8" fill="#111015"/>
+<text x="645" y="176" font-size="13" font-weight="normal" text-anchor="start" fill="#5A5868">Contraste</text>
+<rect x="645" y="184" width="100" height="6" rx="3" fill="#C4C2D0"/>
+<circle cx="695" cy="187" r="8" fill="#111015"/>
+<text x="645" y="220" font-size="13" font-weight="normal" text-anchor="start" fill="#5A5868">Color</text>
+<rect x="645" y="228" width="100" height="6" rx="3" fill="#C4C2D0"/>
+<circle cx="715" cy="231" r="8" fill="#111015"/>
+<text x="50" y="318" font-size="16" font-weight="bold" text-anchor="start" fill="#111015">24 fotos seleccionadas</text>
+<rect x="50" y="336" width="330" height="50" rx="25.0" fill="#111015"/><text x="215.0" y="367.3" font-size="18" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Pegar ajustes en 24 fotos</text>
+<rect x="396" y="336" width="210" height="50" rx="25.0" fill="#FFFFFF" stroke="#111015" stroke-width="2"/><text x="501.0" y="367.3" font-size="18" font-weight="bold" text-anchor="middle" fill="#111015">Copiar ajustes</text>
+</svg>

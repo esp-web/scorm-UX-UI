@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Mapa del blog de recetas La Despensa</title>
+<defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#111015"/></marker></defs>
+<rect width="800" height="420" fill="#FFFFFF"/>
+<path d="M400,63 L400,85.0 L220,85.0 L220,107" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M400,63 L400,85.0 L580,85.0 L580,107" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M220,153 L220,177.5 L220,177.5 L220,202" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M580,153 L580,177.5 L580,177.5 L580,202" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M220,248 L220,267.5 L400,267.5 L400,287" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M580,248 L580,267.5 L400,267.5 L400,287" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M400,333 L400,347.5 L220,347.5 L220,362" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M400,333 L400,347.5 L580,347.5 L580,362" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M300,225 L490,130" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<path d="M500,385 L300,385" fill="none" stroke="#111015" stroke-width="2" marker-end="url(#f)" stroke-dasharray="0"/>
+<rect x="325.0" y="17.0" width="150" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="400" y="46.0" text-anchor="middle" font-size="18">Gazpacho</text>
+<rect x="145.0" y="107.0" width="150" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="220" y="136.0" text-anchor="middle" font-size="18">Tomate</text>
+<rect x="495.0" y="107.0" width="170" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="580" y="136.0" text-anchor="middle" font-size="18">Aceite de oliva</text>
+<rect x="145.0" y="202.0" width="150" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="220" y="231.0" text-anchor="middle" font-size="18">Salmorejo</text>
+<rect x="495.0" y="199.0" width="170" height="52" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="580" y="221.5" text-anchor="middle" font-size="18">Almazaras</text>
+<text x="580" y="240.5" text-anchor="middle" font-size="18">de Jaén</text>
+<rect x="315.0" y="287.0" width="170" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="400" y="316.0" text-anchor="middle" font-size="18">Pan de pueblo</text>
+<rect x="145.0" y="362.0" width="150" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="220" y="391.0" text-anchor="middle" font-size="18">Hornos</text>
+<rect x="505.0" y="362.0" width="150" height="46" rx="10" fill="#F1F1F4" stroke="#111015" stroke-width="2"/>
+<text x="580" y="391.0" text-anchor="middle" font-size="18">Tostadas</text>
+</svg>

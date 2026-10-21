@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es" data-tema="color">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Primer día en la agencia</title>
+  <link rel="preload" href="fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/atkinson-hyperlegible-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#app">Saltar al contenido</a>
+  <header class="cabecera">
+    <svg class="marca" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="14" cy="16" r="2.4" fill="currentColor"/><circle cx="26" cy="16" r="2.4" fill="currentColor"/><path d="M12 23 Q20 31 28 23" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+    <p class="cabecera-titulo" id="cabecera-titulo"></p>
+    <div class="reloj" id="reloj" hidden>
+      <span class="reloj-icono" aria-hidden="true">⏱</span>
+      <span class="sr-only">Tiempo restante:</span>
+      <span id="reloj-valor">--:--</span>
+    </div>
+    <button type="button" id="btn-ajustes" class="btn btn-sm btn-inverso btn-ajustes" aria-expanded="false" aria-controls="herramientas">Aa<span class="sr-only"> · ajustes de lectura</span></button>
+    <div class="herramientas" id="herramientas" role="group" aria-label="Ajustes de lectura">
+      <button type="button" id="btn-menos" class="btn btn-sm btn-inverso" aria-label="Reducir tamaño del texto">A−</button>
+      <button type="button" id="btn-mas" class="btn btn-sm btn-inverso" aria-label="Aumentar tamaño del texto">A+</button>
+      <button type="button" id="btn-tema" class="btn btn-sm btn-inverso"></button>
+    </div>
+  </header>
+  <details id="aviso-vista-previa" class="aviso aviso-plegable" hidden></details>
+  <main id="app" tabindex="-1"></main>
+  <div id="anuncios" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
+
+  <dialog id="dlg-confirmar" aria-labelledby="dlg-confirmar-titulo">
+    <h2 id="dlg-confirmar-titulo">¿Entregar la actividad?</h2>
+    <p id="dlg-confirmar-texto"></p>
+    <div class="acciones">
+      <button type="button" class="btn btn-secundario" id="dlg-confirmar-no">Seguir revisando</button>
+      <button type="button" class="btn btn-principal" id="dlg-confirmar-si">Entregar</button>
+    </div>
+  </dialog>
+
+  <dialog id="dlg-diapositiva" class="dlg-ancho" aria-labelledby="dlg-diapositiva-titulo">
+    <h2 id="dlg-diapositiva-titulo"></h2>
+    <img id="dlg-diapositiva-img" alt="">
+    <p id="dlg-diapositiva-texto" class="dlg-texto"></p>
+    <div class="acciones">
+      <button type="button" class="btn btn-principal" id="dlg-diapositiva-cerrar">Cerrar</button>
+    </div>
+  </dialog>
+
+  <script src="scorm12.js"></script>
+  <script src="actividad.js"></script>
+  <script src="motor.js"></script>
+</body>
+</html>

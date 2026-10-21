@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="Arial, sans-serif">
+  <rect width="600" height="380" fill="#FFFFFF"/>
+  <circle cx="230" cy="170" r="150" fill="#A5D3FC" fill-opacity="0.75" stroke="#111015" stroke-width="4"/>
+  <circle cx="370" cy="170" r="150" fill="#C6D675" fill-opacity="0.75" stroke="#111015" stroke-width="4"/>
+  <path d="M300 37 A150 150 0 0 1 300 303 A150 150 0 0 1 300 37 Z" fill="#F6C956" stroke="#111015" stroke-width="4"/>
+  <text x="150" y="350" text-anchor="middle" font-size="18" font-weight="700" fill="#111015">EN LA PANTALLA</text>
+  <text x="450" y="350" text-anchor="middle" font-size="18" font-weight="700" fill="#111015">DELANTE DE LA PANTALLA</text>
+</svg>

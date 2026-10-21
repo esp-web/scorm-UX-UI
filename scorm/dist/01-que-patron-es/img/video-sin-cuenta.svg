@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 510" width="640" height="510" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>App de vídeos cortos recién abierta en el móvil</title>
+<rect width="640" height="510" fill="#FFFFFF"/>
+<g transform="translate(-80,0)">
+<rect x="270" y="20" width="260" height="470" rx="34" fill="#111015"/>
+<rect x="280" y="30" width="240" height="450" rx="26" fill="#3A3846"/>
+<rect x="365.0" y="36" width="70" height="10" rx="5" fill="#111015"/>
+<circle cx="400" cy="210" r="34" fill="#FFFFFF33"/>
+<path d="M390 192 L416 210 L390 228 Z" fill="#FFFFFF"/>
+<rect x="296" y="404" width="150" height="6" rx="3" fill="#FFFFFF"/>
+<rect x="296" y="404" width="60" height="6" rx="3" fill="#F6C956"/>
+<text x="296" y="384" font-size="13" font-weight="bold" text-anchor="start" fill="#FFFFFF">@cocina_rapida · Tortilla en 5 min</text>
+<rect x="296" y="422" width="208" height="36" rx="18" fill="#FFFFFF22" stroke="#FFFFFF" stroke-width="1"/>
+<text x="400" y="445" font-size="13" font-weight="normal" text-anchor="middle" fill="#FFFFFF">Inicia sesión para comentar</text>
+<rect x="424" y="54" width="84" height="28" rx="14.0" fill="#FFFFFF"/><text x="466.0" y="72.2" font-size="12" font-weight="bold" text-anchor="middle" fill="#111015">Entrar</text>
+<circle cx="492" cy="280" r="12" fill="#FFFFFF66"/>
+<circle cx="492" cy="320" r="12" fill="#FFFFFF66"/>
+<circle cx="492" cy="360" r="12" fill="#FFFFFF66"/>
+</g>
+</svg>

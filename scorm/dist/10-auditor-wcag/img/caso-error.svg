@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" font-family="Atkinson Hyperlegible, Arial, Helvetica, sans-serif" fill="#111015">
+<title>Formulario de inscripción de la carrera Villa Verde</title>
+<rect width="600" height="340" fill="#FFFFFF"/>
+<rect x="0" y="0" width="600" height="36" fill="#F1F1F4"/>
+<circle cx="20" cy="18" r="6" fill="#E84F49"/><circle cx="40" cy="18" r="6" fill="#F6C956"/><circle cx="60" cy="18" r="6" fill="#C6D675"/>
+<rect x="90" y="8" width="420" height="20" rx="10" fill="#FFFFFF" stroke="#111015" stroke-width="1"/>
+<text x="106" y="23" font-size="13" fill="#5A5868">carreravillaverde.es/inscripcion</text>
+<line x1="0" y1="36" x2="600" y2="36" stroke="#111015" stroke-width="2"/><text x="30" y="74" font-size="20" font-weight="bold">Inscripción · 10 km</text><rect x="30" y="92" width="540" height="40" rx="8" fill="#FFFFFF" stroke="#E84F49" stroke-width="2"/><text x="44" y="118" font-size="15" fill="#E84F49">Error 0x3F</text><text x="30" y="160" font-size="14" fill="#3A3846">Nombre</text><rect x="30" y="168" width="260" height="38" rx="8" fill="#FFFFFF" stroke="#111015" stroke-width="1.5"/><text x="310" y="160" font-size="14" fill="#3A3846">Fecha de nacimiento</text><rect x="310" y="168" width="260" height="38" rx="8" fill="#FFFFFF" stroke="#111015" stroke-width="1.5"/><text x="324" y="193" font-size="15">3 de mayo de 1999</text><text x="30" y="234" font-size="14" fill="#3A3846">DNI</text><rect x="30" y="242" width="260" height="38" rx="8" fill="#FFFFFF" stroke="#111015" stroke-width="1.5"/><rect x="420" y="282" width="150" height="44" rx="22" fill="#111015"/><text x="495" y="310" font-size="16" text-anchor="middle" fill="#FFFFFF">Enviar</text><text x="310" y="232" font-size="13" fill="#3A3846">Los campos que había escrito</text><text x="310" y="250" font-size="13" fill="#3A3846">se han borrado al enviar.</text>
+</svg>
